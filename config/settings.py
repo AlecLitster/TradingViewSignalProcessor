@@ -12,10 +12,20 @@ from tradingview_ta import Interval
 BASE_DIR       = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WATCHLIST_FILE = os.path.join(BASE_DIR, "data", "WatchList.txt")
 LOG_FILE       = os.path.join(BASE_DIR, "logs", "signals_log.txt")
+SIGNALS_JSON   = os.path.join(BASE_DIR, "logs", "signals_history.json")
 
 # -- Polling ------------------------------------------------------------------
 
 INTERVAL_MINUTES = 15
+
+# -- Signal history tracking --------------------------------------------------
+
+SIGNAL_HISTORY_FILE = os.path.join(BASE_DIR, "logs", "signals_history.json")
+SIGNAL_HISTORY_WINDOW = 5
+SIGNAL_SCORE_DELTA_THRESHOLD = 0.25
+SIGNAL_SCORE_WEAK_DELTA_THRESHOLD = 0.35
+SIGNAL_SCORE_STRONG_DELTA_THRESHOLD = 0.50
+SIGNAL_MIN_HISTORY_ENTRIES = 2
 
 # -- TradingView --------------------------------------------------------------
 
