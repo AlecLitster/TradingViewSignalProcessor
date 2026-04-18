@@ -1,0 +1,81 @@
+"""
+settings.py
+-----------
+Central configuration for the Watchlist Analyzer.
+"""
+
+import os
+from tradingview_ta import Interval
+
+# -- Paths --------------------------------------------------------------------
+
+BASE_DIR       = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+WATCHLIST_FILE = os.path.join(BASE_DIR, "data", "WatchList.txt")
+LOG_FILE       = os.path.join(BASE_DIR, "logs", "signals_log.txt")
+
+# -- Polling ------------------------------------------------------------------
+
+INTERVAL_MINUTES = 15
+
+# -- TradingView --------------------------------------------------------------
+
+SCREENER         = "america"
+DEFAULT_EXCHANGE = "NYSE"
+
+# Per-ticker exchange overrides
+EXCHANGE_MAP = {
+    "SLV":  "NYSE",
+    "GLD":  "AMEX",
+    "GDX":  "AMEX",
+    "COMB": "AMEX",
+}
+
+# -- Timeframes to fetch (label -> Interval) ----------------------------------
+# Weights are applied in analyzer.py — daily is weighted highest
+
+TIMEFRAMES = {
+    "30min":   Interval.INTERVAL_30_MINUTES,
+    "1hour":   Interval.INTERVAL_1_HOUR,
+    "5hour":   Interval.INTERVAL_5_HOURS,
+    "daily":   Interval.INTERVAL_1_DAY,
+    "weekly":  Interval.INTERVAL_1_WEEK,
+    "monthly": Interval.INTERVAL_1_MONTH,
+}
+
+# Primary interval (used for detailed indicator extraction)
+ANALYSIS_INTERVAL = Interval.INTERVAL_1_DAY
+
+# -- Timeframe weights for final signal (must sum to 1.0) --------------------
+
+TIMEFRAME_WEIGHTS = {
+    "30min":   0.05,
+    "1hour":   0.10,
+    "5hour":   0.15,
+    "daily":   0.40,   # daily carries the most weight
+    "weekly":  0.20,
+    "monthly": 0.10,
+}
+
+# -- Signal mapping -----------------------------------------------------------
+
+SIGNAL_MAP = {
+    "STRONG_BUY":  1.0,
+    "BUY":         0.5,
+    "NEUTRAL":     0.0,
+    "SELL":        -0.5,
+    "STRONG_SELL": -1.0,
+}
+
+# Score thresholds for final BUY/SELL/HOLD decision
+BUY_THRESHOLD  =  0.2   # weighted score above this -> BUY
+SELL_THRESHOLD = -0.2   # weighted score below this -> SELL
+                         # anything in between       -> HOLD
+
+# -- Display ------------------------------------------------------------------
+
+SIGNAL_ICONS = {
+    "BUY":  "[BUY ]",
+    "SELL": "[SELL]",
+    "HOLD": "[HOLD]",
+    "N/A":  "[N/A ]",
+}
