@@ -26,10 +26,11 @@ DEFAULT_EXCHANGE = "NYSE"
 EXCHANGE_MAP = {
     "AIQ":  "NASDAQ",   
     "BOTZ":  "NASDAQ",
-    "SLV":  "AMEX",
-    "GLD":  "AMEX",
-    "GDX":  "AMEX",
     "COMB": "AMEX",
+    "FXE":  "AMEX",
+    "GDX":  "AMEX",
+    "GLD":  "AMEX",
+    "SLV":  "AMEX",
 }
 
 # -- Timeframes to fetch (label -> Interval) ----------------------------------
