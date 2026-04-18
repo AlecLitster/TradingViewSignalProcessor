@@ -94,3 +94,9 @@ All settings live in `config/settings.py`:
 - Daily signals are used by default — change `ANALYSIS_INTERVAL` in settings for shorter timeframes
 - All signals are logged to `logs/signals_log.txt` for history tracking
 - Press `Ctrl+C` to stop the service
+
+The system will:
+Check the current time in Eastern timezone
+Only execute analysis cycles during market hours
+Start running at market open if the script is launched during trading hours
+Skip executions outside of market hours
