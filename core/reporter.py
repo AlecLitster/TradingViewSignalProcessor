@@ -5,9 +5,21 @@ Handles console output and normalized log file writing
 with full indicator breakdown per ticker.
 """
 
+import json
 import os
 from datetime import datetime
-from config.settings import LOG_FILE, SIGNAL_ICONS, INTERVAL_MINUTES, TIMEFRAME_WEIGHTS
+from config.settings import (
+    LOG_FILE,
+    SIGNAL_HISTORY_FILE,
+    SIGNAL_HISTORY_WINDOW,
+    SIGNAL_SCORE_DELTA_THRESHOLD,
+    SIGNAL_SCORE_WEAK_DELTA_THRESHOLD,
+    SIGNAL_SCORE_STRONG_DELTA_THRESHOLD,
+    SIGNAL_MIN_HISTORY_ENTRIES,
+    SIGNAL_ICONS,
+    INTERVAL_MINUTES,
+    TIMEFRAME_WEIGHTS,
+)
 
 LINE_WIDE   = "=" * 80
 LINE_NARROW = "-" * 80
@@ -22,6 +34,93 @@ def _fv(value, fmt="{:.4f}", fallback="N/A"):
         return fmt.format(value)
     except (ValueError, TypeError):
         return fallback
+
+
+def load_signals_history():
+    """Load historical signals from JSON file."""
+    if not os.path.exists(SIGNAL_HISTORY_FILE):
+        return {}
+    try:
+        with open(SIGNAL_HISTORY_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (json.JSONDecodeError, IOError):
+        return {}
+
+
+def save_signals_history(signals_data):
+    """Save current signals to JSON history file."""
+    os.makedirs(os.path.dirname(SIGNAL_HISTORY_FILE), exist_ok=True)
+    history = load_signals_history()
+    timestamp = datetime.now().isoformat()
+    history[timestamp] = signals_data
+
+    if len(history) > 100:
+        sorted_timestamps = sorted(history.keys())
+        history = {ts: history[ts] for ts in sorted_timestamps[-100:]}
+
+    with open(SIGNAL_HISTORY_FILE, 'w', encoding='utf-8') as f:
+        json.dump(history, f, indent=2, ensure_ascii=False)
+
+
+def detect_signal_changes(current_results, history_window=SIGNAL_HISTORY_WINDOW):
+    """Detect significant changes in signals compared to recent history."""
+    history = load_signals_history()
+    recent_timestamps = sorted(history.keys())[-history_window:]
+    if len(recent_timestamps) < SIGNAL_MIN_HISTORY_ENTRIES:
+        return {"significant_changes": [], "message": "Not enough history to compare."}
+
+    changes = []
+    for result in current_results:
+        ticker = result['ticker']
+        current_signal = result['signal']
+        current_score = result.get('weighted_score', 0)
+
+        historical_scores = []
+        historical_signals = []
+        for ts in recent_timestamps:
+            entry = history.get(ts, {})
+            ticker_data = entry.get(ticker)
+            if ticker_data:
+                historical_scores.append(ticker_data.get('score', 0))
+                historical_signals.append(ticker_data.get('signal'))
+
+        if len(historical_scores) < SIGNAL_MIN_HISTORY_ENTRIES:
+            continue
+
+        avg_score = sum(historical_scores) / len(historical_scores)
+        score_change = current_score - avg_score
+        strong_score_change = abs(score_change) >= SIGNAL_SCORE_STRONG_DELTA_THRESHOLD
+        weak_score_change = abs(score_change) >= SIGNAL_SCORE_WEAK_DELTA_THRESHOLD
+        significant_score_change = abs(score_change) >= SIGNAL_SCORE_DELTA_THRESHOLD
+        signal_changed = len(historical_signals) >= 1 and current_signal != historical_signals[-1]
+
+        swing_label = None
+        if strong_score_change:
+            swing_label = "strong swing"
+        elif weak_score_change:
+            swing_label = "weak swing"
+        elif significant_score_change:
+            swing_label = "score swing"
+
+        if signal_changed and swing_label is None:
+            swing_label = "signal change"
+
+        if signal_changed or significant_score_change:
+            changes.append({
+                "ticker": ticker,
+                "current_signal": current_signal,
+                "current_score": current_score,
+                "previous_signals": historical_signals[-3:],
+                "average_score": avg_score,
+                "score_change": score_change,
+                "signal_changed": signal_changed,
+                "significant_score_change": significant_score_change,
+                "weak_score_change": weak_score_change,
+                "strong_score_change": strong_score_change,
+                "swing_label": swing_label,
+            })
+
+    return {"significant_changes": changes, "message": f"Found {len(changes)} significant changes."}
 
 
 def format_console_row(result):
@@ -64,17 +163,32 @@ def format_log_report(results):
     ]
 
     # Summary table
+    change_summary = detect_signal_changes(results)
+    swing_labels = {change['ticker']: change.get('swing_label', 'N/A') for change in change_summary['significant_changes']}
+
     lines += [
         "SIGNAL SUMMARY",
         LINE_NARROW,
-        f"{'TICKER':<8} {'SIGNAL':<8} {'SCORE':<10} {'PRICE':<12} {'BUY':>4} {'SELL':>5} {'NEUT':>5}",
+        f"{'TICKER':<8} {'SIGNAL':<8} {'SCORE':<10} {'PRICE':<14} {'BUY':>4} {'SELL':>5} {'NEUT':>5} {'SWING':<18}",
         LINE_NARROW,
     ]
     for r in results:
         lines.append(
             f"{r['ticker']:<8} {r['signal']:<8} {_fv(r['weighted_score'], '{:+.4f}'):<10} "
-            f"{_fv(r['price'], '${:.2f}'):<12} {r.get('buy',0):>4} {r.get('sell',0):>5} {r.get('neutral',0):>5}"
+            f"{_fv(r['price'], '${:.2f}'):<14} {r.get('buy',0):>4} {r.get('sell',0):>5} {r.get('neutral',0):>5} "
+            f"{swing_labels.get(r['ticker'], 'N/A'):<18}"
         )
+    lines += ["", "SWING SUMMARY", LINE_NARROW]
+    if change_summary["significant_changes"]:
+        lines.append(f"{'TICKER':<8} {'SIGNAL':<8} {'DELTA':<10} {'LABEL':<14}")
+        lines.append(LINE_NARROW)
+        for change in change_summary["significant_changes"]:
+            lines.append(
+                f"{change['ticker']:<8} {change['current_signal']:<8} "
+                f"{change['score_change']:+.3f}     {change.get('swing_label', 'N/A'):<14}"
+            )
+    else:
+        lines.append("No significant swings or signal changes detected in this run.")
 
     # Per-ticker detailed breakdown
     for r in results:
@@ -167,12 +281,24 @@ def print_report(results):
 
 
 def log_report(results):
-    """Append the full normalized report to the log file."""
+    """Append the full normalized report to the log file and save structured signal history."""
     if not LOG_FILE:
         return
     os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(format_log_report(results))
+
+    signals_data = {}
+    for result in results:
+        signals_data[result['ticker']] = {
+            "signal": result['signal'],
+            "score": result.get('weighted_score', 0),
+            "price": result.get('price'),
+            "buy": result.get('buy', 0),
+            "sell": result.get('sell', 0),
+            "neutral": result.get('neutral', 0),
+        }
+    save_signals_history(signals_data)
 
 
 def print_startup(tickers):

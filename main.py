@@ -27,7 +27,7 @@ import pytz
 from config.settings import INTERVAL_MINUTES
 from core.fetcher    import load_watchlist, fetch_raw_analysis
 from core.analyzer   import analyze
-from core.reporter   import print_report, log_report, print_startup
+from core.reporter   import print_report, log_report, print_startup, detect_signal_changes
 
 
 def is_market_open():
@@ -61,6 +61,31 @@ def run_analysis():
     print_report(results)
     log_report(results)
 
+    changes = detect_signal_changes(results)
+    if changes["significant_changes"]:
+        print("\n🚨 SIGNIFICANT SIGNAL CHANGES DETECTED")
+        print(f"   {changes['message']}")
+        for change in changes["significant_changes"]:
+            labels = []
+            if change["signal_changed"]:
+                labels.append("signal change")
+            if change.get("swing_label"):
+                labels.append(change["swing_label"])
+            else:
+                if change["strong_score_change"]:
+                    labels.append("strong swing")
+                elif change["weak_score_change"]:
+                    labels.append("weak swing")
+                elif change["significant_score_change"]:
+                    labels.append("score swing")
+            change_label = ", ".join(labels) if labels else "change"
+            print(
+                f"   {change['ticker']}: {change['current_signal']} "
+                f"(score: {change['current_score']:+.3f}, "
+                f"delta: {change['score_change']:+.3f}, {change_label})"
+            )
+        print()
+
 
 def main():
     tickers = load_watchlist()
@@ -70,9 +95,9 @@ def main():
 
     print_startup(tickers)
     
-    # Run initial analysis only if market is open
-    if is_market_open():
-        run_analysis()
+    # Always run initial analysis on startup, regardless of market hours
+    # Subsequent scheduled runs will still respect market hours
+    run_analysis()
 
     schedule.every(INTERVAL_MINUTES).minutes.do(run_analysis)
 
