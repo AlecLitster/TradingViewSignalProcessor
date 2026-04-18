@@ -4,3 +4,4 @@ COMB
 GDX
 GLD
 SLV
+URA

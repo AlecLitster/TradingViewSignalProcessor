@@ -41,6 +41,7 @@ EXCHANGE_MAP = {
     "GDX":  "AMEX",
     "GLD":  "AMEX",
     "SLV":  "AMEX",
+    "URA":  "AMEX",
 }
 
 # -- Timeframes to fetch (label -> Interval) ----------------------------------

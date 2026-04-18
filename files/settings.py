@@ -24,10 +24,11 @@ DEFAULT_EXCHANGE = "NYSE"
 
 # Per-ticker exchange overrides
 EXCHANGE_MAP = {
-    "SLV":  "NYSE",
+    "COMB": "AMEX",
     "GLD":  "AMEX",
     "GDX":  "AMEX",
-    "COMB": "AMEX",
+    "SLV":  "NYSE",
+    "URA": "AMEX",
 }
 
 # -- Timeframes to fetch (label -> Interval) ----------------------------------

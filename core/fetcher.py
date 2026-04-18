@@ -81,14 +81,6 @@ def fetch_raw_analysis(tickers: list) -> dict:
 
         analyses = fetch_timeframe(symbols, interval, label)
 
-        # TEMP DEBUG
-        if label == "daily":
-            print(f"\nDEBUG daily keys returned: {list(analyses.keys())}")
-            for ticker in tickers:
-                exchange = EXCHANGE_MAP.get(ticker, DEFAULT_EXCHANGE)
-                key = f"{exchange}:{ticker}"
-                print(f"DEBUG looking for '{key}' -> found: {analyses.get(key) is not None}")
-
         for ticker in tickers:
             exchange = EXCHANGE_MAP.get(ticker, DEFAULT_EXCHANGE)
             key      = f"{exchange}:{ticker}"
