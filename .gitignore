@@ -4,3 +4,6 @@ core/__pycache__/fetcher.cpython-313.pyc
 core/__pycache__/reporter.cpython-313.pyc
 logs/signals_log.txt
 logs/signals_log.txt
+__pycache__/analyze_signals.cpython-313.pyc
+__pycache__/main.cpython-313.pyc
+logs/signals_history.json
