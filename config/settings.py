@@ -24,7 +24,7 @@ DEFAULT_EXCHANGE = "NYSE"
 
 # Per-ticker exchange overrides
 EXCHANGE_MAP = {
-    "AIQ":  "NASDAQ",   # <- add this line with the correct exchange
+    "AIQ":  "NASDAQ",   
     "BOTZ":  "NASDAQ",
     "SLV":  "AMEX",
     "GLD":  "AMEX",
