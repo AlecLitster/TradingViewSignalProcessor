@@ -61,6 +61,40 @@ The analyzer generates **machine learning-ready datasets** in addition to human-
 
 ---
 
+## 🤖 AI Interpreters
+
+The system supports **multiple AI providers** for diverse analysis perspectives:
+
+### **Supported Interpreters:**
+- **Claude (Anthropic)** - Deep reasoning and market analysis
+- **Copilot (GitHub)** - Code-aware technical analysis
+- **GPT-4 (OpenAI)** - Broad market intelligence *(future)*
+- **Gemini (Google)** - Alternative AI perspective *(future)*
+
+### **AI Output Files:**
+- **`tv_claude_interpretations.json`** - Claude's detailed analysis
+- **`tv_claude_interpretations.txt`** - Human-readable Claude reports
+- **`tv_copilot_interpretations.json`** - Copilot analysis *(when implemented)*
+- Similar files for other interpreters
+
+### **Configuration:**
+Add API keys to your `.env` file:
+```bash
+CLAUDE_API_KEY=your_anthropic_key_here
+COPILOT_API_KEY=your_github_key_here
+OPENAI_API_KEY=your_openai_key_here
+GEMINI_API_KEY=your_google_key_here
+```
+
+### **Features:**
+- **Independent Analysis**: Each AI provides unique insights
+- **Fallback Support**: If one AI fails, others continue working
+- **Structured Output**: JSON for programmatic use, text for human reading
+- **Confidence Scoring**: Each interpretation includes confidence levels
+- **Risk Assessment**: AI-identified risks and recommended actions
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Prerequisites
