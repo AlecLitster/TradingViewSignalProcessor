@@ -55,6 +55,7 @@ def main(hours_back=24):
     print()
 
     changes = []
+
     for ticker, current in last_data.items():
         previous = first_data.get(ticker)
         if not previous:

@@ -1,4 +1,4 @@
-# 📈 Trading Watchlist Analyzer
+# 📈 Trading View Signal Processor
 Automatically fetches TradingView technical analysis for your watchlist and provides intelligent **BUY / SELL / HOLD** signals with market-aware scheduling and change detection.
 
 ## ✨ Features
@@ -19,8 +19,10 @@ trading_watchlist/
 ├── data/
 │   └── WatchList.txt           ← add/remove tickers here
 ├── logs/
-│   ├── signals_log.txt         ← detailed human-readable logs
-│   └── signals_history.json    ← structured signal history
+│   ├── tv_signals_log.txt      ← detailed human-readable logs
+│   ├── tv_signals_history.json ← structured signal history
+│   ├── tv_signals_ai_features.csv  ← ML-ready feature vectors
+│   └── tv_signals_ai_features.json ← structured AI features
 ├── config/
 │   └── settings.py             ← all configuration in one place
 ├── core/
@@ -32,6 +34,30 @@ trading_watchlist/
 ├── requirements.txt
 └── README.md
 ```
+
+---
+
+## 🤖 AI/ML Features
+
+The analyzer generates **machine learning-ready datasets** in addition to human-readable reports:
+
+### **AI Features Output:**
+- **`tv_signals_ai_features.csv`** - CSV format with flattened feature vectors
+- **`tv_signals_ai_features.json`** - Structured JSON with complete feature sets
+
+### **Feature Engineering:**
+- **100+ technical indicators** flattened into numerical features
+- **Multi-timeframe signals** (daily, weekly, monthly) as numeric scores
+- **Moving averages, oscillators, trend indicators** with signal encodings
+- **Pivot points** from multiple calculation methods
+- **Target labels** (BUY/SELL/HOLD) for supervised learning
+
+### **Use Cases:**
+- Train ML models for automated trading
+- Pattern recognition and signal prediction
+- Feature importance analysis
+- Backtesting trading strategies
+- AI-powered market analysis
 
 ---
 

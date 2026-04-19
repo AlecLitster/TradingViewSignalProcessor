@@ -11,8 +11,9 @@ from tradingview_ta import Interval
 
 BASE_DIR       = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WATCHLIST_FILE = os.path.join(BASE_DIR, "data", "WatchList.txt")
-LOG_FILE       = os.path.join(BASE_DIR, "logs", "signals_log.txt")
-SIGNALS_JSON   = os.path.join(BASE_DIR, "logs", "signals_history.json")
+LOG_FILE       = os.path.join(BASE_DIR, "logs", "tv_signals_log.txt")
+SIGNALS_JSON   = os.path.join(BASE_DIR, "logs", "tv_signals_history.json")
+LOG_DIR        = os.path.join(BASE_DIR, "logs")
 
 # -- Polling ------------------------------------------------------------------
 
@@ -20,12 +21,12 @@ INTERVAL_MINUTES = 15
 
 # -- Signal history tracking --------------------------------------------------
 
-SIGNAL_HISTORY_FILE = os.path.join(BASE_DIR, "logs", "signals_history.json")
-SIGNAL_HISTORY_WINDOW = 5
-SIGNAL_SCORE_DELTA_THRESHOLD = 0.25
-SIGNAL_SCORE_WEAK_DELTA_THRESHOLD = 0.35
+SIGNAL_HISTORY_FILE               = os.path.join(BASE_DIR, "logs", "signals_history.json")
+SIGNAL_HISTORY_WINDOW             = 5
+SIGNAL_SCORE_DELTA_THRESHOLD      = 0.25
+SIGNAL_SCORE_WEAK_DELTA_THRESHOLD  = 0.35
 SIGNAL_SCORE_STRONG_DELTA_THRESHOLD = 0.50
-SIGNAL_MIN_HISTORY_ENTRIES = 2
+SIGNAL_MIN_HISTORY_ENTRIES        = 2
 
 # -- TradingView --------------------------------------------------------------
 
@@ -34,18 +35,19 @@ DEFAULT_EXCHANGE = "NYSE"
 
 # Per-ticker exchange overrides
 EXCHANGE_MAP = {
-    "AIQ":  "NASDAQ",   
+    "AIQ":   "NASDAQ",
     "BOTZ":  "NASDAQ",
-    "COMB": "AMEX",
-    "FXE":  "AMEX",
-    "GDX":  "AMEX",
-    "GLD":  "AMEX",
-    "SLV":  "AMEX",
-    "URA":  "AMEX",
+    "COMB":  "AMEX",
+    "FXE":   "AMEX",
+    "GDX":   "AMEX",
+    "GLD":   "AMEX",
+    "SLV":   "AMEX",
+    "URA":   "AMEX",
+    "VCMDX": "NASDAQ",
 }
 
 # -- Timeframes to fetch (label -> Interval) ----------------------------------
-# Weights are applied in analyzer.py — daily is weighted highest
+# Weights are applied in analyzer.py -- daily is weighted highest
 
 TIMEFRAMES = {
     "daily":   Interval.INTERVAL_1_DAY,
@@ -87,3 +89,15 @@ SIGNAL_ICONS = {
     "HOLD": "[HOLD]",
     "N/A":  "[N/A ]",
 }
+
+# -- Claude AI ----------------------------------------------------------------
+# Get your API key from: https://console.anthropic.com
+# Store it in your .env file as: CLAUDE_API_KEY=your_key_here
+# The .env file is in .gitignore -- never commit your API key to GitHub
+
+CLAUDE_API_KEY    = os.environ.get("CLAUDE_API_KEY", "")
+CLAUDE_MODEL      = "claude-sonnet-4-20250514"
+CLAUDE_MAX_TOKENS = 2000
+
+# Set to False to skip AI interpretation and save API costs
+CLAUDE_ENABLED    = True
