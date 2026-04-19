@@ -90,14 +90,36 @@ SIGNAL_ICONS = {
     "N/A":  "[N/A ]",
 }
 
-# -- Claude AI ----------------------------------------------------------------
-# Get your API key from: https://console.anthropic.com
-# Store it in your .env file as: CLAUDE_API_KEY=your_key_here
-# The .env file is in .gitignore -- never commit your API key to GitHub
+# -- AI Interpreters -------------------------------------------------------
+# Multiple AI providers for diverse analysis perspectives
+# Get API keys from respective providers and store in .env file
+# The .env file is in .gitignore -- never commit API keys to GitHub
 
+# Claude (Anthropic)
 CLAUDE_API_KEY    = os.environ.get("CLAUDE_API_KEY", "")
 CLAUDE_MODEL      = "claude-sonnet-4-20250514"
 CLAUDE_MAX_TOKENS = 2000
+CLAUDE_ENABLED    = bool(CLAUDE_API_KEY)
+
+# GitHub Copilot (future implementation)
+COPILOT_API_KEY   = os.environ.get("COPILOT_API_KEY", "")
+COPILOT_MODEL     = "gpt-4"
+COPILOT_ENABLED   = bool(COPILOT_API_KEY)
+
+# OpenAI GPT-4 (future implementation)
+OPENAI_API_KEY    = os.environ.get("OPENAI_API_KEY", "")
+OPENAI_MODEL      = "gpt-4-turbo"
+OPENAI_ENABLED    = bool(OPENAI_API_KEY)
+
+# Google Gemini (future implementation)
+GEMINI_API_KEY    = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_MODEL      = "gemini-pro"
+GEMINI_ENABLED    = bool(GEMINI_API_KEY)
+
+# Global AI settings
+AI_INTERPRETATION_ENABLED = True  # Master switch for all AI interpretations
+AI_MAX_RETRIES            = 3     # Retry failed API calls
+AI_TIMEOUT_SECONDS        = 30    # API call timeout
 
 # Set to False to skip AI interpretation and save API costs
 CLAUDE_ENABLED    = True
