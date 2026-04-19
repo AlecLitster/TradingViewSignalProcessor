@@ -1,0 +1,5 @@
+tradingview_ta
+schedule
+pytz
+requests
+python-dotenv
