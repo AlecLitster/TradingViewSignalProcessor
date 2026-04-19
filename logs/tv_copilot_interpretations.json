@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-04-19T17:28:44.958835",
+  "interpreter": "copilot",
+  "model": "gpt-4",
+  "interpretation_count": 3,
+  "interpretations": [
+    {
+      "ticker": "AAPL",
+      "signal": "BUY",
+      "confidence": 76,
+      "reasoning": "Copilot analysis: Code-driven technical assessment indicates buy bias. Pattern recognition algorithms detect convergence of multiple indicators.",
+      "risks": [
+        "Algorithm may not account for fundamental factors",
+        "Historical patterns don't guarantee future results",
+        "Black swan events could invalidate technical analysis"
+      ],
+      "action": "Execute buy order with algorithmic stop loss placement. Implement trailing stop for profit protection."
+    },
+    {
+      "ticker": "TSLA",
+      "signal": "SELL",
+      "confidence": 76,
+      "reasoning": "Copilot analysis: Code-driven technical assessment indicates sell bias. Pattern recognition algorithms detect convergence of multiple indicators.",
+      "risks": [
+        "Algorithm may not account for fundamental factors",
+        "Historical patterns don't guarantee future results",
+        "Black swan events could invalidate technical analysis"
+      ],
+      "action": "Execute sell order with algorithmic stop loss placement. Implement trailing stop for profit protection."
+    },
+    {
+      "ticker": "NVDA",
+      "signal": "HOLD",
+      "confidence": 76,
+      "reasoning": "Copilot analysis: Code-driven technical assessment indicates hold bias. Pattern recognition algorithms detect convergence of multiple indicators.",
+      "risks": [
+        "Algorithm may not account for fundamental factors",
+        "Historical patterns don't guarantee future results",
+        "Black swan events could invalidate technical analysis"
+      ],
+      "action": "Execute hold order with algorithmic stop loss placement. Implement trailing stop for profit protection."
+    }
+  ]
+}
