@@ -1,0 +1,110 @@
+{
+  "2026-04-18T08:30:13.618017": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 54.1,
+      "buy": 16,
+      "sell": 4,
+      "neutral": 6
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 37.41,
+      "buy": 16,
+      "sell": 3,
+      "neutral": 7
+    },
+    "COMB": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 25.57,
+      "buy": 7,
+      "sell": 9,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "BUY",
+      "score": 0.85,
+      "price": 100.34,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "GLD": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 445.93,
+      "buy": 15,
+      "sell": 3,
+      "neutral": 8
+    },
+    "SLV": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 73.63,
+      "buy": 16,
+      "sell": 2,
+      "neutral": 8
+    }
+  },
+  "2026-04-18T09:55:29.647599": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 54.1,
+      "buy": 16,
+      "sell": 4,
+      "neutral": 6
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 37.41,
+      "buy": 16,
+      "sell": 3,
+      "neutral": 7
+    },
+    "COMB": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 25.57,
+      "buy": 7,
+      "sell": 9,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "BUY",
+      "score": 0.85,
+      "price": 100.34,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "GLD": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 445.93,
+      "buy": 15,
+      "sell": 3,
+      "neutral": 8
+    },
+    "SLV": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 73.63,
+      "buy": 16,
+      "sell": 2,
+      "neutral": 8
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 55.86,
+      "buy": 15,
+      "sell": 4,
+      "neutral": 7
+    }
+  }
+}
