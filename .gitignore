@@ -7,3 +7,8 @@ logs/signals_log.txt
 __pycache__/analyze_signals.cpython-313.pyc
 __pycache__/main.cpython-313.pyc
 logs/signals_history.json
+logs/signals_log.txt
+core/__pycache__/claude_interpreter.cpython-313.pyc
+core/__pycache__/ai_features.cpython-313.pyc
+.gitignore
+core/__pycache__/interpreters.cpython-313.pyc

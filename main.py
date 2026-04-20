@@ -9,10 +9,10 @@ Run this file to start the service:
 Pipeline:
   Stage 1 -- fetcher.py            : fetch raw TradingView data
   Stage 2 -- analyzer.py           : process into structured signals
-           -- reporter.py          : write signals_log.txt + history
+           -- reporter.py          : write tv_signals_log.txt + history
   Stage 3 -- claude_interpreter.py : AI interpretation & reasoning
-                                   : write signals_interpreted.txt
-                                   : write signals_interpreted.json
+                                   : write tv_signals_interpreted.txt
+                                   : write tv_signals_interpreted.json
 """
 
 import sys
@@ -39,13 +39,12 @@ import pytz
 from config.settings import INTERVAL_MINUTES, CLAUDE_ENABLED
 from core.fetcher      import load_watchlist, fetch_raw_analysis
 from core.analyzer     import analyze
-from core.reporter     import (
+from core.reporter   import (
     print_report,
     log_report,
     print_startup,
     detect_signal_changes,
 )
-from core.claude_interpreter import interpret, print_interpretations
 
 
 def is_market_open():
@@ -74,6 +73,9 @@ def run_analysis():
     # Stage 1 & 2: fetch and analyze
     raw_analyses = fetch_raw_analysis(tickers)
     results      = analyze(tickers, raw_analyses)
+
+    # Stage 2.5: Export AI-optimized features
+    export_ai_features(results)
 
     # Stage 2 output: console + log file + signal history
     print_report(results)
