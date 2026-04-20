@@ -83,7 +83,7 @@ def build_prompt(results: list) -> str:
     lines.append("  - MACD above signal line = bullish momentum; below = bearish")
     lines.append("  - These tickers are correlated precious metals / commodity ETFs:")
     lines.append("    SLV (silver), GLD (gold), GDX (gold miners), COMB (commodities),")
-    lines.append("    URA (uranium), FXE (euro), AIQ (AI ETF), BOTZ (robotics ETF)")
+    lines.append("    URA (uranium), AIQ (AI ETF), BOTZ (robotics ETF)")
     lines.append("  - When multiple correlated tickers align, note the sector-wide signal")
     lines.append("")
     lines.append(

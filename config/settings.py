@@ -21,7 +21,7 @@ INTERVAL_MINUTES = 15
 
 # -- Signal history tracking --------------------------------------------------
 
-SIGNAL_HISTORY_FILE               = os.path.join(BASE_DIR, "logs", "signals_history.json")
+SIGNAL_HISTORY_FILE               = os.path.join(BASE_DIR, "logs", "tv_signals_history.json")
 SIGNAL_HISTORY_WINDOW             = 5
 SIGNAL_SCORE_DELTA_THRESHOLD      = 0.25
 SIGNAL_SCORE_WEAK_DELTA_THRESHOLD  = 0.35

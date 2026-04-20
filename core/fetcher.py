@@ -39,6 +39,10 @@ def load_watchlist() -> list:
 
 def build_symbol(ticker: str) -> str:
     """Return the 'EXCHANGE:TICKER' string TradingView expects."""
+    # If ticker already contains a colon, it already has exchange prefix
+    if ":" in ticker:
+        return ticker
+    # Otherwise, add the exchange prefix
     exchange = EXCHANGE_MAP.get(ticker, DEFAULT_EXCHANGE)
     return f"{exchange}:{ticker}"
 

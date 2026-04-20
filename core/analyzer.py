@@ -47,7 +47,88 @@ def compute_weighted_signal(timeframe_analyses: dict) -> tuple:
     return signal, round(weighted_score, 4), per_timeframe
 
 
-def extract_moving_averages(indicators: dict) -> dict:
+def count_indicators_manually(indicators: dict) -> tuple:
+    """Manually count BUY/SELL/NEUTRAL signals from indicators when summary is missing."""
+    buy_count = 0
+    sell_count = 0
+    neutral_count = 0
+
+    # Moving averages
+    close = indicators.get("close")
+    for period in [5, 10, 20, 50, 100, 200]:
+        sma_key = f"SMA{period}"
+        ema_key = f"EMA{period}"
+        sma_val = indicators.get(sma_key)
+        ema_val = indicators.get(ema_key)
+
+        if sma_val is not None and close is not None:
+            if close > sma_val:
+                buy_count += 1
+            else:
+                sell_count += 1
+
+        if ema_val is not None and close is not None:
+            if close > ema_val:
+                buy_count += 1
+            else:
+                sell_count += 1
+
+    # Oscillators
+    rsi = indicators.get("RSI")
+    if rsi is not None:
+        if rsi >= 55:
+            buy_count += 1
+        elif rsi <= 45:
+            sell_count += 1
+        else:
+            neutral_count += 1
+
+    stoch_k = indicators.get("Stoch.K")
+    if stoch_k is not None:
+        if stoch_k >= 80:
+            sell_count += 1  # Overbought
+        elif stoch_k <= 20:
+            buy_count += 1   # Oversold
+        else:
+            neutral_count += 1
+
+    cci = indicators.get("CCI20")
+    if cci is not None:
+        if cci > 100:
+            buy_count += 1
+        elif cci < -100:
+            sell_count += 1
+        else:
+            neutral_count += 1
+
+    williams = indicators.get("W.R")
+    if williams is not None:
+        if williams > -20:
+            sell_count += 1  # Overbought
+        elif williams < -80:
+            buy_count += 1   # Oversold
+        else:
+            neutral_count += 1
+
+    # Trend indicators
+    macd = indicators.get("MACD.macd")
+    macd_signal = indicators.get("MACD.signal")
+    if macd is not None and macd_signal is not None:
+        if macd > macd_signal:
+            buy_count += 1
+        else:
+            sell_count += 1
+
+    adx = indicators.get("ADX")
+    adx_pos = indicators.get("ADX+DI")
+    adx_neg = indicators.get("ADX-DI")
+    if adx is not None and adx_pos is not None and adx_neg is not None and adx > 25:
+        if adx_pos > adx_neg:
+            buy_count += 1
+        else:
+            sell_count += 1
+
+    return buy_count, sell_count, neutral_count
     """Extract all MA values from the daily indicators."""
     mas = {}
     for period in [5, 10, 20, 50, 100, 200]:
