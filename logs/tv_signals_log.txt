@@ -1,0 +1,421 @@
+
+================================================================================
+WATCHLIST SIGNAL REPORT
+Date         : 2026-04-21
+Time         : 23:17:30
+Tickers      : AIQ, BOTZ, COMB, GDX, GLD, SLV, URA
+Poll Interval: Every 15 minutes
+================================================================================
+SIGNAL SUMMARY
+--------------------------------------------------------------------------------
+TICKER   SIGNAL   SCORE      PRICE           BUY  SELL  NEUT SWING             
+--------------------------------------------------------------------------------
+AIQ      BUY      +0.6500    $53.69           15     5     6 N/A               
+BOTZ     BUY      +0.5500    $36.74           14     4     8 N/A               
+COMB     BUY      +0.9500    $26.12           16     1     9 N/A               
+GDX      SELL     -0.3000    $92.99            5    12     9 N/A               
+GLD      SELL     -0.3000    $429.57           5    12     9 N/A               
+SLV      SELL     -0.3000    $68.49            6    11     9 N/A               
+URA      BUY      +0.5500    $53.74           14     3     9 N/A               
+
+SWING SUMMARY
+--------------------------------------------------------------------------------
+No significant swings or signal changes detected in this run.
+
+================================================================================
+TICKER: AIQ  |  SIGNAL: BUY  |  WEIGHTED SCORE: +0.6500
+PRICE : $53.6900
+--------------------------------------------------------------------------------
+
+TIMEFRAME SIGNALS
+----------------------------------------
+  daily      Buy                  (weight: 70%)
+  weekly     Strong Buy           (weight: 20%)
+  monthly    Strong Buy           (weight: 10%)
+
+MOVING AVERAGES
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MA5_SMA          53.5820      BUY
+  MA5_EMA          53.2579      BUY
+  MA10_SMA         51.8640      BUY
+  MA10_EMA         52.0531      BUY
+  MA20_SMA         49.3845      BUY
+  MA20_EMA         50.6838      BUY
+  MA50_SMA         49.4408      BUY
+  MA50_EMA         49.9648      BUY
+  MA100_SMA        50.4034      BUY
+  MA100_EMA        49.7619      BUY
+  MA200_SMA        49.0220      BUY
+  MA200_EMA        48.2020      BUY
+
+OSCILLATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  RSI_14           69.3393      BUY
+  STOCH_K          93.2475      OVERBOUGHT
+  STOCH_D          95.5702      OVERBOUGHT
+  STOCHRSI_K       94.7580      OVERBOUGHT
+  CCI_20           124.1423     BUY
+  WILLIAMS_R       -9.7541      OVERBOUGHT
+  ROC              N/A          NEUTRAL
+  ULTIMATE_OSC     72.6392      BUY
+
+TREND INDICATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MACD             1.3418       BUY
+  MACD_SIGNAL      0.6436       BUY
+  ADX              24.1002      WEAK TREND
+  ADX_PLUS_DI      44.4576      N/A
+  ADX_MINUS_DI     24.2440      N/A
+  BULL_BEAR_POWER  N/A          N/A
+
+PIVOT POINTS
+----------------------------------------
+  TYPE         S3         S2         S1         PP         R1         R2         R3
+  Classic      35.20      41.20      43.94      47.20      49.93      53.19      59.19
+  Fibonacci    41.20      43.49      44.90      47.20      49.49      50.90      53.19
+  Camarilla    45.02      45.57      46.12      47.20      47.22      47.77      48.32
+
+================================================================================
+TICKER: BOTZ  |  SIGNAL: BUY  |  WEIGHTED SCORE: +0.5500
+PRICE : $36.7400
+--------------------------------------------------------------------------------
+
+TIMEFRAME SIGNALS
+----------------------------------------
+  daily      Buy                  (weight: 70%)
+  weekly     Buy                  (weight: 20%)
+  monthly    Strong Buy           (weight: 10%)
+
+MOVING AVERAGES
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MA5_SMA          37.0180      SELL
+  MA5_EMA          36.8546      SELL
+  MA10_SMA         36.3120      BUY
+  MA10_EMA         36.2817      BUY
+  MA20_SMA         34.8280      BUY
+  MA20_EMA         35.7050      BUY
+  MA50_SMA         36.2042      BUY
+  MA50_EMA         35.8617      BUY
+  MA100_SMA        36.5378      BUY
+  MA100_EMA        36.0061      BUY
+  MA200_SMA        35.6633      BUY
+  MA200_EMA        35.3449      BUY
+
+OSCILLATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  RSI_14           58.1655      BUY
+  STOCH_K          90.1029      OVERBOUGHT
+  STOCH_D          93.7773      OVERBOUGHT
+  STOCHRSI_K       90.8960      OVERBOUGHT
+  CCI_20           98.2619      NEUTRAL
+  WILLIAMS_R       -19.6850     OVERBOUGHT
+  ROC              N/A          NEUTRAL
+  ULTIMATE_OSC     66.2123      NEUTRAL
+
+TREND INDICATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MACD             0.4480       BUY
+  MACD_SIGNAL      0.0122       BUY
+  ADX              25.1059      BUY
+  ADX_PLUS_DI      35.8556      N/A
+  ADX_MINUS_DI     30.2608      N/A
+  BULL_BEAR_POWER  N/A          N/A
+
+PIVOT POINTS
+----------------------------------------
+  TYPE         S3         S2         S1         PP         R1         R2         R3
+  Classic      21.41      27.96      30.59      34.51      37.13      41.05      47.59
+  Fibonacci    27.96      30.46      32.00      34.51      37.01      38.55      41.05
+  Camarilla    31.42      32.02      32.62      34.51      33.82      34.42      35.02
+
+================================================================================
+TICKER: COMB  |  SIGNAL: BUY  |  WEIGHTED SCORE: +0.9500
+PRICE : $26.1250
+--------------------------------------------------------------------------------
+
+TIMEFRAME SIGNALS
+----------------------------------------
+  daily      Strong Buy           (weight: 70%)
+  weekly     Strong Buy           (weight: 20%)
+  monthly    Buy                  (weight: 10%)
+
+MOVING AVERAGES
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MA5_SMA          25.8760      BUY
+  MA5_EMA          25.9043      BUY
+  MA10_SMA         25.8000      BUY
+  MA10_EMA         25.8999      BUY
+  MA20_SMA         25.9359      BUY
+  MA20_EMA         25.8046      BUY
+  MA50_SMA         24.9111      BUY
+  MA50_EMA         25.0754      BUY
+  MA100_SMA        23.7683      BUY
+  MA100_EMA        24.1572      BUY
+  MA200_SMA        22.7098      BUY
+  MA200_EMA        23.1542      BUY
+
+OSCILLATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  RSI_14           56.5378      BUY
+  STOCH_K          34.2315      NEUTRAL
+  STOCH_D          32.6811      NEUTRAL
+  STOCHRSI_K       18.2062      OVERSOLD
+  CCI_20           20.8525      NEUTRAL
+  WILLIAMS_R       -47.6048     NEUTRAL
+  ROC              N/A          NEUTRAL
+  ULTIMATE_OSC     52.8094      NEUTRAL
+
+TREND INDICATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MACD             0.2188       SELL
+  MACD_SIGNAL      0.3134       SELL
+  ADX              24.2150      WEAK TREND
+  ADX_PLUS_DI      38.7744      N/A
+  ADX_MINUS_DI     29.4804      N/A
+  BULL_BEAR_POWER  N/A          N/A
+
+PIVOT POINTS
+----------------------------------------
+  TYPE         S3         S2         S1         PP         R1         R2         R3
+  Classic      20.34      22.93      24.60      25.52      27.19      28.11      30.70
+  Fibonacci    22.93      23.92      24.53      25.52      26.51      27.12      28.11
+  Camarilla    25.55      25.79      26.03      25.52      26.50      26.74      26.98
+
+================================================================================
+TICKER: GDX  |  SIGNAL: SELL  |  WEIGHTED SCORE: -0.3000
+PRICE : $92.9900
+--------------------------------------------------------------------------------
+
+TIMEFRAME SIGNALS
+----------------------------------------
+  daily      Sell                 (weight: 70%)
+  weekly     Neutral              (weight: 20%)
+  monthly    Buy                  (weight: 10%)
+
+MOVING AVERAGES
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MA5_SMA          97.5780      SELL
+  MA5_EMA          96.9736      SELL
+  MA10_SMA         98.3340      SELL
+  MA10_EMA         96.9417      SELL
+  MA20_SMA         93.9145      SELL
+  MA20_EMA         96.0327      SELL
+  MA50_SMA         98.3962      SELL
+  MA50_EMA         95.8962      SELL
+  MA100_SMA        94.8870      SELL
+  MA100_EMA        92.3622      BUY
+  MA200_SMA        80.6254      BUY
+  MA200_EMA        82.4779      BUY
+
+OSCILLATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  RSI_14           45.2058      NEUTRAL
+  STOCH_K          63.3727      NEUTRAL
+  STOCH_D          75.9971      NEUTRAL
+  STOCHRSI_K       51.9987      NEUTRAL
+  CCI_20           10.4893      NEUTRAL
+  WILLIAMS_R       -75.8065     NEUTRAL
+  ROC              N/A          NEUTRAL
+  ULTIMATE_OSC     40.3485      NEUTRAL
+
+TREND INDICATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MACD             0.7257       BUY
+  MACD_SIGNAL      0.2619       BUY
+  ADX              15.8794      WEAK TREND
+  ADX_PLUS_DI      26.3932      N/A
+  ADX_MINUS_DI     34.0154      N/A
+  BULL_BEAR_POWER  N/A          N/A
+
+PIVOT POINTS
+----------------------------------------
+  TYPE         S3         S2         S1         PP         R1         R2         R3
+  Classic      19.02      57.46      74.61      95.89      113.05     134.33     172.76
+  Fibonacci    57.46      72.14      81.21      95.89      110.58     119.65     134.33
+  Camarilla    81.20      84.72      88.25      95.89      95.29      98.82      102.34
+
+================================================================================
+TICKER: GLD  |  SIGNAL: SELL  |  WEIGHTED SCORE: -0.3000
+PRICE : $429.5700
+--------------------------------------------------------------------------------
+
+TIMEFRAME SIGNALS
+----------------------------------------
+  daily      Sell                 (weight: 70%)
+  weekly     Neutral              (weight: 20%)
+  monthly    Buy                  (weight: 10%)
+
+MOVING AVERAGES
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MA5_SMA          439.6260     SELL
+  MA5_EMA          437.6639     SELL
+  MA10_SMA         438.8150     SELL
+  MA10_EMA         437.2414     SELL
+  MA20_SMA         429.7735     SELL
+  MA20_EMA         437.0104     SELL
+  MA50_SMA         449.2788     SELL
+  MA50_EMA         439.1276     SELL
+  MA100_SMA        433.0531     SELL
+  MA100_EMA        427.0180     BUY
+  MA200_SMA        386.7300     BUY
+  MA200_EMA        394.3423     BUY
+
+OSCILLATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  RSI_14           44.8590      SELL
+  STOCH_K          66.7064      NEUTRAL
+  STOCH_D          80.6539      OVERBOUGHT
+  STOCHRSI_K       57.6602      NEUTRAL
+  CCI_20           20.3764      NEUTRAL
+  WILLIAMS_R       -69.4878     NEUTRAL
+  ROC              N/A          NEUTRAL
+  ULTIMATE_OSC     47.2790      NEUTRAL
+
+TREND INDICATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MACD             -1.1009      BUY
+  MACD_SIGNAL      -2.8784      BUY
+  ADX              16.7320      WEAK TREND
+  ADX_PLUS_DI      25.3951      N/A
+  ADX_MINUS_DI     37.0431      N/A
+  BULL_BEAR_POWER  N/A          N/A
+
+PIVOT POINTS
+----------------------------------------
+  TYPE         S3         S2         S1         PP         R1         R2         R3
+  Classic      254.65     347.60     388.94     440.55     481.89     533.50     626.45
+  Fibonacci    347.60     383.10     405.04     440.55     476.05     497.99     533.50
+  Camarilla    404.73     413.25     421.77     440.55     438.81     447.33     455.85
+
+================================================================================
+TICKER: SLV  |  SIGNAL: SELL  |  WEIGHTED SCORE: -0.3000
+PRICE : $68.4900
+--------------------------------------------------------------------------------
+
+TIMEFRAME SIGNALS
+----------------------------------------
+  daily      Sell                 (weight: 70%)
+  weekly     Neutral              (weight: 20%)
+  monthly    Buy                  (weight: 10%)
+
+MOVING AVERAGES
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MA5_SMA          71.4700      SELL
+  MA5_EMA          70.6647      SELL
+  MA10_SMA         70.2610      SELL
+  MA10_EMA         70.1051      SELL
+  MA20_SMA         67.6300      BUY
+  MA20_EMA         69.5664      SELL
+  MA50_SMA         71.5152      SELL
+  MA50_EMA         70.3194      SELL
+  MA100_SMA        70.5026      SELL
+  MA100_EMA        67.1640      BUY
+  MA200_SMA        55.0311      BUY
+  MA200_EMA        58.4639      BUY
+
+OSCILLATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  RSI_14           47.4101      NEUTRAL
+  STOCH_K          68.8202      NEUTRAL
+  STOCH_D          79.9115      NEUTRAL
+  STOCHRSI_K       66.0602      NEUTRAL
+  CCI_20           43.9184      NEUTRAL
+  WILLIAMS_R       -55.7692     NEUTRAL
+  ROC              N/A          NEUTRAL
+  ULTIMATE_OSC     50.3757      NEUTRAL
+
+TREND INDICATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MACD             0.1262       BUY
+  MACD_SIGNAL      -0.6190      BUY
+  ADX              12.9954      WEAK TREND
+  ADX_PLUS_DI      29.7210      N/A
+  ADX_MINUS_DI     36.6672      N/A
+  BULL_BEAR_POWER  N/A          N/A
+
+PIVOT POINTS
+----------------------------------------
+  TYPE         S3         S2         S1         PP         R1         R2         R3
+  Classic      26.29      48.29      58.22      70.29      80.22      92.30      114.30
+  Fibonacci    48.29      56.70      61.89      70.29      78.70      83.89      92.30
+  Camarilla    62.09      64.11      66.12      70.29      70.16      72.17      74.19
+
+================================================================================
+TICKER: URA  |  SIGNAL: BUY  |  WEIGHTED SCORE: +0.5500
+PRICE : $53.7400
+--------------------------------------------------------------------------------
+
+TIMEFRAME SIGNALS
+----------------------------------------
+  daily      Buy                  (weight: 70%)
+  weekly     Buy                  (weight: 20%)
+  monthly    Strong Buy           (weight: 10%)
+
+MOVING AVERAGES
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MA5_SMA          55.1520      SELL
+  MA5_EMA          54.4993      SELL
+  MA10_SMA         53.4070      BUY
+  MA10_EMA         53.4039      BUY
+  MA20_SMA         50.6490      BUY
+  MA20_EMA         52.0336      BUY
+  MA50_SMA         51.4278      BUY
+  MA50_EMA         51.2708      BUY
+  MA100_SMA        50.4713      BUY
+  MA100_EMA        50.2167      BUY
+  MA200_SMA        47.6329      BUY
+  MA200_EMA        46.7571      BUY
+
+OSCILLATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  RSI_14           57.0263      BUY
+  STOCH_K          81.5249      OVERBOUGHT
+  STOCH_D          88.0068      OVERBOUGHT
+  STOCHRSI_K       84.9502      OVERBOUGHT
+  CCI_20           95.9112      NEUTRAL
+  WILLIAMS_R       -33.0294     NEUTRAL
+  ROC              N/A          NEUTRAL
+  ULTIMATE_OSC     57.6547      NEUTRAL
+
+TREND INDICATORS
+----------------------------------------
+  NAME             VALUE        SIGNAL
+  MACD             1.3106       BUY
+  MACD_SIGNAL      0.5955       BUY
+  ADX              14.0446      WEAK TREND
+  ADX_PLUS_DI      30.8998      N/A
+  ADX_MINUS_DI     23.5126      N/A
+  BULL_BEAR_POWER  N/A          N/A
+
+PIVOT POINTS
+----------------------------------------
+  TYPE         S3         S2         S1         PP         R1         R2         R3
+  Classic      26.14      38.05      43.24      49.95      55.14      61.86      73.76
+  Fibonacci    38.05      42.59      45.40      49.95      54.50      57.31      61.86
+  Camarilla    45.16      46.25      47.34      49.95      49.52      50.61      51.70
+
+================================================================================
+OVERALL SUMMARY : 4 BUY  |  3 SELL  |  0 HOLD
+================================================================================
+END OF REPORT
+================================================================================
