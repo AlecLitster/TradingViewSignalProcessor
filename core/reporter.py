@@ -5,8 +5,10 @@ Handles console output and normalized log file writing
 with full indicator breakdown per ticker.
 """
 
+import gzip
 import json
 import os
+import shutil
 from datetime import datetime
 from config.settings import (
     LOG_FILE,
@@ -24,6 +26,41 @@ from config.settings import (
 LINE_WIDE   = "=" * 80
 LINE_NARROW = "-" * 80
 LINE_MED    = "-" * 40
+
+# -- Log rotation -------------------------------------------------------------
+
+LOG_MAX_BYTES    = 5 * 1024 * 1024   # rotate at 5 MB
+LOG_BACKUP_COUNT = 5                  # keep .1.gz .. .5.gz
+
+
+def rotate_log(path: str) -> None:
+    """
+    Rotate 'path' if it exceeds LOG_MAX_BYTES.
+    Keeps LOG_BACKUP_COUNT compressed backups (.1.gz is newest).
+    Shifts existing backups up by one, dropping the oldest if full.
+    """
+    if not os.path.exists(path) or os.path.getsize(path) < LOG_MAX_BYTES:
+        return
+
+    # Drop the oldest backup if we're already at the limit
+    oldest = f"{path}.{LOG_BACKUP_COUNT}.gz"
+    if os.path.exists(oldest):
+        os.remove(oldest)
+
+    # Shift .4.gz -> .5.gz, .3.gz -> .4.gz, ...
+    for n in range(LOG_BACKUP_COUNT - 1, 0, -1):
+        src = f"{path}.{n}.gz"
+        dst = f"{path}.{n + 1}.gz"
+        if os.path.exists(src):
+            shutil.move(src, dst)
+
+    # Compress the current log into .1.gz and start fresh
+    with open(path, "rb") as f_in, gzip.open(f"{path}.1.gz", "wb") as f_out:
+        shutil.copyfileobj(f_in, f_out)
+    open(path, "w").close()   # truncate to zero bytes
+
+
+# -----------------------------------------------------------------------------
 
 
 def _fv(value, fmt="{:.4f}", fallback="N/A"):
@@ -285,6 +322,7 @@ def log_report(results):
     if not LOG_FILE:
         return
     os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
+    rotate_log(LOG_FILE)
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(format_log_report(results))
 

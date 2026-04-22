@@ -121,5 +121,5 @@ AI_INTERPRETATION_ENABLED = True  # Master switch for all AI interpretations
 AI_MAX_RETRIES            = 3     # Retry failed API calls
 AI_TIMEOUT_SECONDS        = 30    # API call timeout
 
-# Set to False to skip AI interpretation and save API costs
-CLAUDE_ENABLED    = True
+# To disable Claude interpretation without removing your API key,
+# set CLAUDE_ENABLED = False here explicitly.

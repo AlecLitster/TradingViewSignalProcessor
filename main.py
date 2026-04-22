@@ -39,12 +39,14 @@ import pytz
 from config.settings import INTERVAL_MINUTES, CLAUDE_ENABLED
 from core.fetcher      import load_watchlist, fetch_raw_analysis
 from core.analyzer     import analyze
-from core.reporter   import (
+from core.reporter          import (
     print_report,
     log_report,
     print_startup,
     detect_signal_changes,
 )
+from core.ai_features       import export_ai_features
+from core.claude_interpreter import interpret, print_interpretations
 
 
 def is_market_open():

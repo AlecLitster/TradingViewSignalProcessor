@@ -129,14 +129,17 @@ def count_indicators_manually(indicators: dict) -> tuple:
             sell_count += 1
 
     return buy_count, sell_count, neutral_count
+
+
+def extract_moving_averages(indicators: dict) -> dict:
     """Extract all MA values from the daily indicators."""
     mas = {}
+    close = indicators.get("close")
     for period in [5, 10, 20, 50, 100, 200]:
         sma_key = f"SMA{period}"
         ema_key = f"EMA{period}"
         sma_val = indicators.get(sma_key)
         ema_val = indicators.get(ema_key)
-        close   = indicators.get("close")
 
         if sma_val is not None and close is not None:
             mas[f"MA{period}_SMA"] = {
