@@ -13,6 +13,7 @@ Pipeline:
   Stage 3 -- claude_interpreter.py : AI interpretation & reasoning
                                    : write tv_signals_interpreted.txt
                                    : write tv_signals_interpreted.json
+  Stage 4 -- dashboard_generator.py: write tv_signals_interpreted.html  ← NEW
 """
 
 import sys
@@ -36,17 +37,18 @@ import time
 from datetime import datetime
 import pytz
 
-from config.settings import INTERVAL_MINUTES, CLAUDE_ENABLED
-from core.fetcher      import load_watchlist, fetch_raw_analysis
-from core.analyzer     import analyze
-from core.reporter          import (
+from config.settings             import INTERVAL_MINUTES, CLAUDE_ENABLED
+from core.fetcher                import load_watchlist, fetch_raw_analysis
+from core.analyzer               import analyze
+from core.reporter               import (
     print_report,
     log_report,
     print_startup,
     detect_signal_changes,
 )
-from core.ai_features       import export_ai_features
-from core.claude_interpreter import interpret, print_interpretations
+from core.ai_features            import export_ai_features
+from core.claude_interpreter     import interpret, print_interpretations
+from dashboard_generator         import generate_dashboard          # ← NEW
 
 
 def is_market_open():
@@ -65,9 +67,6 @@ def is_market_open():
 
 def run_analysis():
     """Single analysis cycle -- fetch, analyze, report, interpret."""
-    if not is_market_open():
-        return
-
     tickers = load_watchlist()
     if not tickers:
         return
@@ -87,6 +86,15 @@ def run_analysis():
     if CLAUDE_ENABLED:
         interpretations = interpret(results)
         print_interpretations(interpretations)
+
+    # # Stage 4: Generate HTML dashboard alongside the JSON output
+    json_path = "logs/tv_signals_ai_features.json"
+    print(f"[dashboard] Looking for JSON at: {os.path.abspath(json_path)}")
+    print(f"[dashboard] File exists: {os.path.exists(json_path)}")
+    if os.path.exists(json_path):
+        generate_dashboard(json_path)
+    else:
+        print("[dashboard] Skipped — JSON file not found.")
 
     # Signal change detection and alerts
     changes = detect_signal_changes(results)
@@ -115,6 +123,12 @@ def run_analysis():
         print()
 
 
+def run_if_market_open():
+    """Scheduled callback -- only runs analysis during market hours."""
+    if is_market_open():
+        run_analysis()
+
+
 def main():
     tickers = load_watchlist()
     if not tickers:
@@ -127,7 +141,7 @@ def main():
     run_analysis()
 
     # Then schedule every N minutes (respects market hours)
-    schedule.every(INTERVAL_MINUTES).minutes.do(run_analysis)
+    schedule.every(INTERVAL_MINUTES).minutes.do(run_if_market_open)
 
     while True:
         schedule.run_pending()

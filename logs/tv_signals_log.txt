@@ -1,8 +1,8 @@
 
 ================================================================================
 WATCHLIST SIGNAL REPORT
-Date         : 2026-04-21
-Time         : 23:17:30
+Date         : 2026-04-23
+Time         : 06:53:23
 Tickers      : AIQ, BOTZ, COMB, GDX, GLD, SLV, URA
 Poll Interval: Every 15 minutes
 ================================================================================
@@ -10,65 +10,65 @@ SIGNAL SUMMARY
 --------------------------------------------------------------------------------
 TICKER   SIGNAL   SCORE      PRICE           BUY  SELL  NEUT SWING             
 --------------------------------------------------------------------------------
-AIQ      BUY      +0.6500    $53.69           15     5     6 N/A               
-BOTZ     BUY      +0.5500    $36.74           14     4     8 N/A               
-COMB     BUY      +0.9500    $26.12           16     1     9 N/A               
-GDX      SELL     -0.3000    $92.99            5    12     9 N/A               
-GLD      SELL     -0.3000    $429.57           5    12     9 N/A               
-SLV      SELL     -0.3000    $68.49            6    11     9 N/A               
-URA      BUY      +0.5500    $53.74           14     3     9 N/A               
+AIQ      BUY      +1.0000    $54.97           16     2     8 N/A               
+BOTZ     BUY      +0.5500    $37.37           14     3     9 N/A               
+COMB     BUY      +0.9500    $26.32           16     1     9 N/A               
+GDX      HOLD     +0.0500    $94.48            7     9    10 N/A               
+GLD      HOLD     +0.1500    $435.26           9     8     9 N/A               
+SLV      BUY      +0.5000    $70.37           12     4    10 N/A               
+URA      BUY      +1.0000    $57.73           16     1     9 N/A               
 
 SWING SUMMARY
 --------------------------------------------------------------------------------
 No significant swings or signal changes detected in this run.
 
 ================================================================================
-TICKER: AIQ  |  SIGNAL: BUY  |  WEIGHTED SCORE: +0.6500
-PRICE : $53.6900
+TICKER: AIQ  |  SIGNAL: BUY  |  WEIGHTED SCORE: +1.0000
+PRICE : $54.9700
 --------------------------------------------------------------------------------
 
 TIMEFRAME SIGNALS
 ----------------------------------------
-  daily      Buy                  (weight: 70%)
+  daily      Strong Buy           (weight: 70%)
   weekly     Strong Buy           (weight: 20%)
   monthly    Strong Buy           (weight: 10%)
 
 MOVING AVERAGES
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MA5_SMA          53.5820      BUY
-  MA5_EMA          53.2579      BUY
-  MA10_SMA         51.8640      BUY
-  MA10_EMA         52.0531      BUY
-  MA20_SMA         49.3845      BUY
-  MA20_EMA         50.6838      BUY
-  MA50_SMA         49.4408      BUY
-  MA50_EMA         49.9648      BUY
-  MA100_SMA        50.4034      BUY
-  MA100_EMA        49.7619      BUY
-  MA200_SMA        49.0220      BUY
-  MA200_EMA        48.2020      BUY
+  MA5_SMA          54.0320      BUY
+  MA5_EMA          53.8286      BUY
+  MA10_SMA         52.4010      BUY
+  MA10_EMA         52.5834      BUY
+  MA20_SMA         49.7525      BUY
+  MA20_EMA         51.0920      BUY
+  MA50_SMA         49.5236      BUY
+  MA50_EMA         50.1611      BUY
+  MA100_SMA        50.4606      BUY
+  MA100_EMA        49.8651      BUY
+  MA200_SMA        49.0791      BUY
+  MA200_EMA        48.2693      BUY
 
 OSCILLATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  RSI_14           69.3393      BUY
-  STOCH_K          93.2475      OVERBOUGHT
-  STOCH_D          95.5702      OVERBOUGHT
+  RSI_14           73.2299      OVERBOUGHT
+  STOCH_K          94.5713      OVERBOUGHT
+  STOCH_D          94.5200      OVERBOUGHT
   STOCHRSI_K       94.7580      OVERBOUGHT
-  CCI_20           124.1423     BUY
-  WILLIAMS_R       -9.7541      OVERBOUGHT
+  CCI_20           125.2890     BUY
+  WILLIAMS_R       -0.1082      OVERBOUGHT
   ROC              N/A          NEUTRAL
-  ULTIMATE_OSC     72.6392      BUY
+  ULTIMATE_OSC     73.9817      BUY
 
 TREND INDICATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MACD             1.3418       BUY
-  MACD_SIGNAL      0.6436       BUY
-  ADX              24.1002      WEAK TREND
-  ADX_PLUS_DI      44.4576      N/A
-  ADX_MINUS_DI     24.2440      N/A
+  MACD             1.5060       BUY
+  MACD_SIGNAL      0.8161       BUY
+  ADX              24.6806      WEAK TREND
+  ADX_PLUS_DI      43.5856      N/A
+  ADX_MINUS_DI     22.3409      N/A
   BULL_BEAR_POWER  N/A          N/A
 
 PIVOT POINTS
@@ -80,7 +80,7 @@ PIVOT POINTS
 
 ================================================================================
 TICKER: BOTZ  |  SIGNAL: BUY  |  WEIGHTED SCORE: +0.5500
-PRICE : $36.7400
+PRICE : $37.3700
 --------------------------------------------------------------------------------
 
 TIMEFRAME SIGNALS
@@ -92,39 +92,39 @@ TIMEFRAME SIGNALS
 MOVING AVERAGES
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MA5_SMA          37.0180      SELL
-  MA5_EMA          36.8546      SELL
-  MA10_SMA         36.3120      BUY
-  MA10_EMA         36.2817      BUY
-  MA20_SMA         34.8280      BUY
-  MA20_EMA         35.7050      BUY
-  MA50_SMA         36.2042      BUY
-  MA50_EMA         35.8617      BUY
-  MA100_SMA        36.5378      BUY
-  MA100_EMA        36.0061      BUY
-  MA200_SMA        35.6633      BUY
-  MA200_EMA        35.3449      BUY
+  MA5_SMA          37.1460      BUY
+  MA5_EMA          37.0264      BUY
+  MA10_SMA         36.5370      BUY
+  MA10_EMA         36.4795      BUY
+  MA20_SMA         35.0055      BUY
+  MA20_EMA         35.8636      BUY
+  MA50_SMA         36.1888      BUY
+  MA50_EMA         35.9208      BUY
+  MA100_SMA        36.5660      BUY
+  MA100_EMA        36.0331      BUY
+  MA200_SMA        35.6893      BUY
+  MA200_EMA        35.3651      BUY
 
 OSCILLATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  RSI_14           58.1655      BUY
-  STOCH_K          90.1029      OVERBOUGHT
-  STOCH_D          93.7773      OVERBOUGHT
-  STOCHRSI_K       90.8960      OVERBOUGHT
-  CCI_20           98.2619      NEUTRAL
-  WILLIAMS_R       -19.6850     OVERBOUGHT
+  RSI_14           61.7656      BUY
+  STOCH_K          89.5506      OVERBOUGHT
+  STOCH_D          91.5184      OVERBOUGHT
+  STOCHRSI_K       86.5708      OVERBOUGHT
+  CCI_20           100.1498     BUY
+  WILLIAMS_R       -7.2835      OVERBOUGHT
   ROC              N/A          NEUTRAL
-  ULTIMATE_OSC     66.2123      NEUTRAL
+  ULTIMATE_OSC     66.0231      NEUTRAL
 
 TREND INDICATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MACD             0.4480       BUY
-  MACD_SIGNAL      0.0122       BUY
-  ADX              25.1059      BUY
-  ADX_PLUS_DI      35.8556      N/A
-  ADX_MINUS_DI     30.2608      N/A
+  MACD             0.5165       BUY
+  MACD_SIGNAL      0.1131       BUY
+  ADX              23.9170      WEAK TREND
+  ADX_PLUS_DI      33.7287      N/A
+  ADX_MINUS_DI     28.4658      N/A
   BULL_BEAR_POWER  N/A          N/A
 
 PIVOT POINTS
@@ -136,7 +136,7 @@ PIVOT POINTS
 
 ================================================================================
 TICKER: COMB  |  SIGNAL: BUY  |  WEIGHTED SCORE: +0.9500
-PRICE : $26.1250
+PRICE : $26.3200
 --------------------------------------------------------------------------------
 
 TIMEFRAME SIGNALS
@@ -148,39 +148,39 @@ TIMEFRAME SIGNALS
 MOVING AVERAGES
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MA5_SMA          25.8760      BUY
-  MA5_EMA          25.9043      BUY
-  MA10_SMA         25.8000      BUY
-  MA10_EMA         25.8999      BUY
-  MA20_SMA         25.9359      BUY
-  MA20_EMA         25.8046      BUY
-  MA50_SMA         24.9111      BUY
-  MA50_EMA         25.0754      BUY
-  MA100_SMA        23.7683      BUY
-  MA100_EMA        24.1572      BUY
-  MA200_SMA        22.7098      BUY
-  MA200_EMA        23.1542      BUY
+  MA5_SMA          25.9670      BUY
+  MA5_EMA          26.0429      BUY
+  MA10_SMA         25.8670      BUY
+  MA10_EMA         25.9763      BUY
+  MA20_SMA         25.9876      BUY
+  MA20_EMA         25.8536      BUY
+  MA50_SMA         24.9791      BUY
+  MA50_EMA         25.1243      BUY
+  MA100_SMA        23.8075      BUY
+  MA100_EMA        24.2001      BUY
+  MA200_SMA        22.7358      BUY
+  MA200_EMA        23.1857      BUY
 
 OSCILLATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  RSI_14           56.5378      BUY
-  STOCH_K          34.2315      NEUTRAL
-  STOCH_D          32.6811      NEUTRAL
-  STOCHRSI_K       18.2062      OVERSOLD
-  CCI_20           20.8525      NEUTRAL
-  WILLIAMS_R       -47.6048     NEUTRAL
+  RSI_14           58.7659      BUY
+  STOCH_K          49.2016      NEUTRAL
+  STOCH_D          38.3539      NEUTRAL
+  STOCHRSI_K       35.6092      NEUTRAL
+  CCI_20           73.2695      NEUTRAL
+  WILLIAMS_R       -35.9281     NEUTRAL
   ROC              N/A          NEUTRAL
-  ULTIMATE_OSC     52.8094      NEUTRAL
+  ULTIMATE_OSC     55.2636      NEUTRAL
 
 TREND INDICATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MACD             0.2188       SELL
-  MACD_SIGNAL      0.3134       SELL
-  ADX              24.2150      WEAK TREND
-  ADX_PLUS_DI      38.7744      N/A
-  ADX_MINUS_DI     29.4804      N/A
+  MACD             0.2364       SELL
+  MACD_SIGNAL      0.2980       SELL
+  ADX              23.8368      WEAK TREND
+  ADX_PLUS_DI      41.2217      N/A
+  ADX_MINUS_DI     28.1049      N/A
   BULL_BEAR_POWER  N/A          N/A
 
 PIVOT POINTS
@@ -191,52 +191,52 @@ PIVOT POINTS
   Camarilla    25.55      25.79      26.03      25.52      26.50      26.74      26.98
 
 ================================================================================
-TICKER: GDX  |  SIGNAL: SELL  |  WEIGHTED SCORE: -0.3000
-PRICE : $92.9900
+TICKER: GDX  |  SIGNAL: HOLD  |  WEIGHTED SCORE: +0.0500
+PRICE : $94.4800
 --------------------------------------------------------------------------------
 
 TIMEFRAME SIGNALS
 ----------------------------------------
-  daily      Sell                 (weight: 70%)
+  daily      Neutral              (weight: 70%)
   weekly     Neutral              (weight: 20%)
   monthly    Buy                  (weight: 10%)
 
 MOVING AVERAGES
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MA5_SMA          97.5780      SELL
-  MA5_EMA          96.9736      SELL
-  MA10_SMA         98.3340      SELL
-  MA10_EMA         96.9417      SELL
-  MA20_SMA         93.9145      SELL
-  MA20_EMA         96.0327      SELL
-  MA50_SMA         98.3962      SELL
-  MA50_EMA         95.8962      SELL
-  MA100_SMA        94.8870      SELL
-  MA100_EMA        92.3622      BUY
-  MA200_SMA        80.6254      BUY
-  MA200_EMA        82.4779      BUY
+  MA5_SMA          96.9200      SELL
+  MA5_EMA          96.1424      SELL
+  MA10_SMA         97.9640      SELL
+  MA10_EMA         96.4941      SELL
+  MA20_SMA         94.4635      BUY
+  MA20_EMA         95.8849      SELL
+  MA50_SMA         98.2280      SELL
+  MA50_EMA         95.8406      SELL
+  MA100_SMA        95.0538      SELL
+  MA100_EMA        92.4041      BUY
+  MA200_SMA        80.8320      BUY
+  MA200_EMA        82.5973      BUY
 
 OSCILLATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  RSI_14           45.2058      NEUTRAL
-  STOCH_K          63.3727      NEUTRAL
-  STOCH_D          75.9971      NEUTRAL
-  STOCHRSI_K       51.9987      NEUTRAL
-  CCI_20           10.4893      NEUTRAL
-  WILLIAMS_R       -75.8065     NEUTRAL
+  RSI_14           47.7151      NEUTRAL
+  STOCH_K          45.9787      NEUTRAL
+  STOCH_D          63.7325      NEUTRAL
+  STOCHRSI_K       27.2734      NEUTRAL
+  CCI_20           3.3854       NEUTRAL
+  WILLIAMS_R       -63.7903     NEUTRAL
   ROC              N/A          NEUTRAL
-  ULTIMATE_OSC     40.3485      NEUTRAL
+  ULTIMATE_OSC     39.3059      NEUTRAL
 
 TREND INDICATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MACD             0.7257       BUY
-  MACD_SIGNAL      0.2619       BUY
-  ADX              15.8794      WEAK TREND
-  ADX_PLUS_DI      26.3932      N/A
-  ADX_MINUS_DI     34.0154      N/A
+  MACD             0.4959       BUY
+  MACD_SIGNAL      0.3087       BUY
+  ADX              15.6464      WEAK TREND
+  ADX_PLUS_DI      25.0783      N/A
+  ADX_MINUS_DI     32.3207      N/A
   BULL_BEAR_POWER  N/A          N/A
 
 PIVOT POINTS
@@ -247,52 +247,52 @@ PIVOT POINTS
   Camarilla    81.20      84.72      88.25      95.89      95.29      98.82      102.34
 
 ================================================================================
-TICKER: GLD  |  SIGNAL: SELL  |  WEIGHTED SCORE: -0.3000
-PRICE : $429.5700
+TICKER: GLD  |  SIGNAL: HOLD  |  WEIGHTED SCORE: +0.1500
+PRICE : $435.2600
 --------------------------------------------------------------------------------
 
 TIMEFRAME SIGNALS
 ----------------------------------------
-  daily      Sell                 (weight: 70%)
-  weekly     Neutral              (weight: 20%)
+  daily      Neutral              (weight: 70%)
+  weekly     Buy                  (weight: 20%)
   monthly    Buy                  (weight: 10%)
 
 MOVING AVERAGES
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MA5_SMA          439.6260     SELL
-  MA5_EMA          437.6639     SELL
-  MA10_SMA         438.8150     SELL
-  MA10_EMA         437.2414     SELL
-  MA20_SMA         429.7735     SELL
-  MA20_EMA         437.0104     SELL
-  MA50_SMA         449.2788     SELL
-  MA50_EMA         439.1276     SELL
-  MA100_SMA        433.0531     SELL
-  MA100_EMA        427.0180     BUY
-  MA200_SMA        386.7300     BUY
-  MA200_EMA        394.3423     BUY
+  MA5_SMA          438.5860     SELL
+  MA5_EMA          436.8626     SELL
+  MA10_SMA         438.8880     SELL
+  MA10_EMA         436.8811     SELL
+  MA20_SMA         431.3300     BUY
+  MA20_EMA         436.8437     SELL
+  MA50_SMA         448.6434     SELL
+  MA50_EMA         438.9759     SELL
+  MA100_SMA        433.6049     BUY
+  MA100_EMA        427.1812     BUY
+  MA200_SMA        387.3694     BUY
+  MA200_EMA        394.7494     BUY
 
 OSCILLATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  RSI_14           44.8590      SELL
-  STOCH_K          66.7064      NEUTRAL
-  STOCH_D          80.6539      OVERBOUGHT
-  STOCHRSI_K       57.6602      NEUTRAL
-  CCI_20           20.3764      NEUTRAL
-  WILLIAMS_R       -69.4878     NEUTRAL
+  RSI_14           48.3792      NEUTRAL
+  STOCH_K          52.9952      NEUTRAL
+  STOCH_D          68.4320      NEUTRAL
+  STOCHRSI_K       36.3232      NEUTRAL
+  CCI_20           30.7019      NEUTRAL
+  WILLIAMS_R       -48.8195     NEUTRAL
   ROC              N/A          NEUTRAL
-  ULTIMATE_OSC     47.2790      NEUTRAL
+  ULTIMATE_OSC     48.4131      NEUTRAL
 
 TREND INDICATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MACD             -1.1009      BUY
-  MACD_SIGNAL      -2.8784      BUY
-  ADX              16.7320      WEAK TREND
-  ADX_PLUS_DI      25.3951      N/A
-  ADX_MINUS_DI     37.0431      N/A
+  MACD             -1.1487      BUY
+  MACD_SIGNAL      -2.5324      BUY
+  ADX              16.8693      WEAK TREND
+  ADX_PLUS_DI      23.9844      N/A
+  ADX_MINUS_DI     34.9853      N/A
   BULL_BEAR_POWER  N/A          N/A
 
 PIVOT POINTS
@@ -303,52 +303,52 @@ PIVOT POINTS
   Camarilla    404.73     413.25     421.77     440.55     438.81     447.33     455.85
 
 ================================================================================
-TICKER: SLV  |  SIGNAL: SELL  |  WEIGHTED SCORE: -0.3000
-PRICE : $68.4900
+TICKER: SLV  |  SIGNAL: BUY  |  WEIGHTED SCORE: +0.5000
+PRICE : $70.3700
 --------------------------------------------------------------------------------
 
 TIMEFRAME SIGNALS
 ----------------------------------------
-  daily      Sell                 (weight: 70%)
-  weekly     Neutral              (weight: 20%)
+  daily      Buy                  (weight: 70%)
+  weekly     Buy                  (weight: 20%)
   monthly    Buy                  (weight: 10%)
 
 MOVING AVERAGES
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MA5_SMA          71.4700      SELL
-  MA5_EMA          70.6647      SELL
-  MA10_SMA         70.2610      SELL
-  MA10_EMA         70.1051      SELL
-  MA20_SMA         67.6300      BUY
-  MA20_EMA         69.5664      SELL
-  MA50_SMA         71.5152      SELL
-  MA50_EMA         70.3194      SELL
-  MA100_SMA        70.5026      SELL
-  MA100_EMA        67.1640      BUY
-  MA200_SMA        55.0311      BUY
-  MA200_EMA        58.4639      BUY
+  MA5_SMA          71.1760      SELL
+  MA5_EMA          70.5665      SELL
+  MA10_SMA         70.5510      SELL
+  MA10_EMA         70.1532      BUY
+  MA20_SMA         68.0010      BUY
+  MA20_EMA         69.6429      BUY
+  MA50_SMA         71.4018      SELL
+  MA50_EMA         70.3214      BUY
+  MA100_SMA        70.7396      SELL
+  MA100_EMA        67.2275      BUY
+  MA200_SMA        55.2158      BUY
+  MA200_EMA        58.5824      BUY
 
 OSCILLATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  RSI_14           47.4101      NEUTRAL
-  STOCH_K          68.8202      NEUTRAL
-  STOCH_D          79.9115      NEUTRAL
-  STOCHRSI_K       66.0602      NEUTRAL
-  CCI_20           43.9184      NEUTRAL
-  WILLIAMS_R       -55.7692     NEUTRAL
+  RSI_14           51.0752      NEUTRAL
+  STOCH_K          59.6711      NEUTRAL
+  STOCH_D          70.3879      NEUTRAL
+  STOCHRSI_K       48.9763      NEUTRAL
+  CCI_20           62.9947      NEUTRAL
+  WILLIAMS_R       -40.0502     NEUTRAL
   ROC              N/A          NEUTRAL
-  ULTIMATE_OSC     50.3757      NEUTRAL
+  ULTIMATE_OSC     51.6959      NEUTRAL
 
 TREND INDICATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MACD             0.1262       BUY
-  MACD_SIGNAL      -0.6190      BUY
-  ADX              12.9954      WEAK TREND
-  ADX_PLUS_DI      29.7210      N/A
-  ADX_MINUS_DI     36.6672      N/A
+  MACD             0.1564       BUY
+  MACD_SIGNAL      -0.4639      BUY
+  ADX              12.8145      WEAK TREND
+  ADX_PLUS_DI      28.0433      N/A
+  ADX_MINUS_DI     34.5974      N/A
   BULL_BEAR_POWER  N/A          N/A
 
 PIVOT POINTS
@@ -359,52 +359,52 @@ PIVOT POINTS
   Camarilla    62.09      64.11      66.12      70.29      70.16      72.17      74.19
 
 ================================================================================
-TICKER: URA  |  SIGNAL: BUY  |  WEIGHTED SCORE: +0.5500
-PRICE : $53.7400
+TICKER: URA  |  SIGNAL: BUY  |  WEIGHTED SCORE: +1.0000
+PRICE : $57.7300
 --------------------------------------------------------------------------------
 
 TIMEFRAME SIGNALS
 ----------------------------------------
-  daily      Buy                  (weight: 70%)
-  weekly     Buy                  (weight: 20%)
+  daily      Strong Buy           (weight: 70%)
+  weekly     Strong Buy           (weight: 20%)
   monthly    Strong Buy           (weight: 10%)
 
 MOVING AVERAGES
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MA5_SMA          55.1520      SELL
-  MA5_EMA          54.4993      SELL
-  MA10_SMA         53.4070      BUY
-  MA10_EMA         53.4039      BUY
-  MA20_SMA         50.6490      BUY
-  MA20_EMA         52.0336      BUY
-  MA50_SMA         51.4278      BUY
-  MA50_EMA         51.2708      BUY
-  MA100_SMA        50.4713      BUY
-  MA100_EMA        50.2167      BUY
-  MA200_SMA        47.6329      BUY
-  MA200_EMA        46.7571      BUY
+  MA5_SMA          55.7300      BUY
+  MA5_EMA          55.5762      BUY
+  MA10_SMA         54.0400      BUY
+  MA10_EMA         54.1905      BUY
+  MA20_SMA         51.1260      BUY
+  MA20_EMA         52.5761      BUY
+  MA50_SMA         51.4844      BUY
+  MA50_EMA         51.5241      BUY
+  MA100_SMA        50.6095      BUY
+  MA100_EMA        50.3655      BUY
+  MA200_SMA        47.7317      BUY
+  MA200_EMA        46.8663      BUY
 
 OSCILLATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  RSI_14           57.0263      BUY
-  STOCH_K          81.5249      OVERBOUGHT
-  STOCH_D          88.0068      OVERBOUGHT
-  STOCHRSI_K       84.9502      OVERBOUGHT
-  CCI_20           95.9112      NEUTRAL
-  WILLIAMS_R       -33.0294     NEUTRAL
+  RSI_14           66.1746      BUY
+  STOCH_K          85.2104      OVERBOUGHT
+  STOCH_D          85.7110      OVERBOUGHT
+  STOCHRSI_K       84.0913      OVERBOUGHT
+  CCI_20           130.5391     BUY
+  WILLIAMS_R       -0.3563      OVERBOUGHT
   ROC              N/A          NEUTRAL
-  ULTIMATE_OSC     57.6547      NEUTRAL
+  ULTIMATE_OSC     62.2635      NEUTRAL
 
 TREND INDICATORS
 ----------------------------------------
   NAME             VALUE        SIGNAL
-  MACD             1.3106       BUY
-  MACD_SIGNAL      0.5955       BUY
-  ADX              14.0446      WEAK TREND
-  ADX_PLUS_DI      30.8998      N/A
-  ADX_MINUS_DI     23.5126      N/A
+  MACD             1.5897       BUY
+  MACD_SIGNAL      0.7943       BUY
+  ADX              14.4956      WEAK TREND
+  ADX_PLUS_DI      31.2296      N/A
+  ADX_MINUS_DI     20.6646      N/A
   BULL_BEAR_POWER  N/A          N/A
 
 PIVOT POINTS
@@ -415,7 +415,7 @@ PIVOT POINTS
   Camarilla    45.16      46.25      47.34      49.95      49.52      50.61      51.70
 
 ================================================================================
-OVERALL SUMMARY : 4 BUY  |  3 SELL  |  0 HOLD
+OVERALL SUMMARY : 5 BUY  |  0 SELL  |  2 HOLD
 ================================================================================
 END OF REPORT
 ================================================================================
