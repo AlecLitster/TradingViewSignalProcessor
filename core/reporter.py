@@ -9,6 +9,7 @@ import gzip
 import json
 import os
 import shutil
+import csv
 from datetime import datetime
 from config.settings import (
     LOG_FILE,
@@ -21,6 +22,7 @@ from config.settings import (
     SIGNAL_ICONS,
     INTERVAL_MINUTES,
     TIMEFRAME_WEIGHTS,
+    LOG_DIR,
 )
 
 LINE_WIDE   = "=" * 80
@@ -97,6 +99,24 @@ def save_signals_history(signals_data):
 
     with open(SIGNAL_HISTORY_FILE, 'w', encoding='utf-8') as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
+
+    # Save to CSV files per ticker
+    for ticker, data in signals_data.items():
+        csv_file = os.path.join(LOG_DIR, f"{ticker}.csv")
+        file_exists = os.path.exists(csv_file)
+        with open(csv_file, 'a', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            if not file_exists:
+                writer.writerow(['timestamp', 'signal', 'score', 'price', 'buy', 'sell', 'neutral'])
+            writer.writerow([
+                timestamp,
+                data['signal'],
+                data['score'],
+                data.get('price', ''),
+                data.get('buy', 0),
+                data.get('sell', 0),
+                data.get('neutral', 0)
+            ])
 
 
 def detect_signal_changes(current_results, history_window=SIGNAL_HISTORY_WINDOW):

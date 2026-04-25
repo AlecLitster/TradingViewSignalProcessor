@@ -1,60 +1,6398 @@
 {
-  "2026-04-23T06:53:23.351943": {
+  "2026-04-24T11:07:44.088086": {
     "AIQ": {
       "signal": "BUY",
       "score": 1.0,
-      "price": 54.97,
+      "price": 54.64,
       "buy": 16,
-      "sell": 2,
-      "neutral": 8
+      "sell": 0,
+      "neutral": 10
     },
     "BOTZ": {
       "signal": "BUY",
       "score": 0.55,
-      "price": 37.37,
-      "buy": 14,
-      "sell": 3,
-      "neutral": 9
+      "price": 37.01,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
     },
     "COMB": {
       "signal": "BUY",
-      "score": 0.95,
-      "price": 26.32,
-      "buy": 16,
-      "sell": 1,
-      "neutral": 9
+      "score": 0.6,
+      "price": 26.465,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
     },
     "GDX": {
-      "signal": "HOLD",
-      "score": 0.05,
-      "price": 94.48,
-      "buy": 7,
-      "sell": 9,
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.8,
+      "buy": 6,
+      "sell": 10,
       "neutral": 10
     },
     "GLD": {
       "signal": "HOLD",
       "score": 0.15,
-      "price": 435.26,
+      "price": 434.19,
       "buy": 9,
-      "sell": 8,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.199,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.605,
+      "buy": 13,
+      "sell": 4,
       "neutral": 9
     },
     "SLV": {
-      "signal": "BUY",
-      "score": 0.5,
-      "price": 70.37,
-      "buy": 12,
-      "sell": 4,
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.78,
+      "buy": 8,
+      "sell": 8,
       "neutral": 10
     },
     "URA": {
       "signal": "BUY",
+      "score": 0.55,
+      "price": 56.035,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:11:28.559520": {
+    "AIQ": {
+      "signal": "BUY",
       "score": 1.0,
-      "price": 57.73,
+      "price": 54.665,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.02,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.465,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.73,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.91,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.69,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:12:52.205015": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.705,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.045,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.465,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.595,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.87,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.2451,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.6106,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.67,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56.015,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:18:00.291675": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.68,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.075,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.465,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.635,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.7503,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.18,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.5501,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.66,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56.08,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:23:29.406642": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.69,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.08,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.465,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.605,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.465,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.015,
+      "buy": 10,
+      "sell": 8,
+      "neutral": 8
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.55,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.545,
+      "buy": 7,
+      "sell": 9,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.98,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:26:36.844259": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.725,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.1,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.465,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.91,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.78,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.5975,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56.04,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:28:37.247428": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.73,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.105,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.4412,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.82,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.7889,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.0699,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.65,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.6544,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56.06,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:33:45.331948": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.73,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.08,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.49,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.8,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.675,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.085,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.5,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.49,
+      "buy": 7,
+      "sell": 9,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.94,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:38:53.353278": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.735,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.095,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.49,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.74,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.88,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.14,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.4801,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.6901,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56.05,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:41:44.679085": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.67,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.075,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.48,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.405,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.38,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.49,
+      "buy": 7,
+      "sell": 9,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.835,
+      "buy": 14,
+      "sell": 3,
+      "neutral": 9
+    }
+  },
+  "2026-04-24T11:44:01.382690": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.69,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.086567,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.48,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.47,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.4001,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.13,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.535,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.515,
+      "buy": 7,
+      "sell": 9,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.99,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:49:09.523336": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.7306,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.11,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.455,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.48,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.5,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.13,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.51,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.57,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.95,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:54:17.624026": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.73,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.115,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.455,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.6,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.32,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.09,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.6,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.54,
+      "buy": 7,
+      "sell": 9,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.96,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:56:52.198469": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.74,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.12,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.455,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.51,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 433.22,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.53,
+      "buy": 7,
+      "sell": 9,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.965,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T11:59:25.703837": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.73,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 37.12,
+      "buy": 15,
+      "sell": 1,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.455,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.53,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 433.14,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.115,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.472,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.515,
+      "buy": 7,
+      "sell": 9,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56.02,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:04:33.891196": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.84,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.275,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.36,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 93.97,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434.01,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.19,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.77,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.03,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56.335,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:09:41.959523": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.9,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.265,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.36,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.17,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434.105,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.215,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.7668,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.145,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 56.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:11:59.566436": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.91,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.275,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.36,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.24,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434.025,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.15,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56.37,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:14:50.141602": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.89,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.255,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.36,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.2,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.99434,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.235,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.81,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.0901,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56.295,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:19:58.310748": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.845,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.23,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.36,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.23,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434.03,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.2001,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.66,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.05,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56.195,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:25:06.380646": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.81,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.185,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.36,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.0833,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.4809,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.13,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.62,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.865,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56.02,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:27:07.194308": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.865,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.1951,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.36,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.2,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.675,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.97,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 56.02,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:30:14.490901": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.85,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.2,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.36,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.08,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.5873,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.1209,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.62,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.9499,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.9,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:35:22.584769": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.835,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.215,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.36,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.13,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.5,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.06,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.4901,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.87,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.85,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:40:30.743692": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.84,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.235,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.36,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.13,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.8201,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.07,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.6099,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.96,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.88,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:42:14.620977": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.85,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.235,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.36,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.15,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.91,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.97,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.82,
+      "buy": 14,
+      "sell": 3,
+      "neutral": 9
+    }
+  },
+  "2026-04-24T12:45:38.964785": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.8668,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.22,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.36,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.17,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.8576,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.08,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.56,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.965,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.865,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:50:47.084323": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.93,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.25,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.3947,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.43,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.155,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.66,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.0501,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.96,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:55:55.267767": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.9401,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.25,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.3947,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.13,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.76,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.07,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.58,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.05,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.84,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T12:57:22.136317": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.91,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.25,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.3947,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.28,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.75,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.0399,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.86,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:01:03.342919": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.865,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.24,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.1299,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.785,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.0701,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.5,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.015,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.8542,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:06:11.588123": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.8701,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.24,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.205,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.72,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.04,
+      "buy": 10,
+      "sell": 8,
+      "neutral": 8
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.56,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.97,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.85,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:11:19.743158": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.8835,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.245,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.32,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.8,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.07,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.61,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.075,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.9,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:12:29.579964": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.89,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.225,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.26,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.79,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.04,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.89,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:16:27.804463": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.94,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.26,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.41,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434.12,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.08,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.59,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.175,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.91,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:21:35.980220": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.9084,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.24,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.26,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434.16,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.99,
+      "buy": 10,
+      "sell": 8,
+      "neutral": 8
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.5769,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.18,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.75,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:26:44.148407": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.92,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.26,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.28,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434.14,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.085,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.575,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.19,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.7498,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:27:37.072356": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.905,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.28,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.25,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434.03,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.195,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.77,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:31:52.307685": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.865,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.27,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.32,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434.0101,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.07,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.58,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.21,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.74,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:37:00.342980": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.84,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.245,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.25,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434.02,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.015,
+      "buy": 10,
+      "sell": 8,
+      "neutral": 8
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.49,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.09,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.551,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:42:08.492356": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.885,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.268322,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.185,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434.15,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.025,
+      "buy": 10,
+      "sell": 8,
+      "neutral": 8
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.48,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.3299,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.55,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:42:44.432625": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.865,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.285,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.21,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 434.020892,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.28,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.53,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:47:16.611493": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.85,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.26,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.21,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.42,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.0601,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.5,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.17,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.42,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:52:24.774319": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.96,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.28,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.415,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.29,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.8304,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44,
+      "buy": 10,
+      "sell": 8,
+      "neutral": 8
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.53,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.29,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.52,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:57:32.488934": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.95,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.285,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.38,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.23,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.6401,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.985,
+      "buy": 10,
+      "sell": 8,
+      "neutral": 8
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.545,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.275,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.5,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T13:57:52.383637": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.94,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.255,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.38,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.21,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.6401,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.245,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.5,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:02:40.180148": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.98,
       "buy": 16,
       "sell": 1,
       "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.27,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.38,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.13,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.66,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.98,
+      "buy": 10,
+      "sell": 8,
+      "neutral": 8
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.51,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.25,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.53,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:07:48.148155": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.995,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.26,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.35,
+      "buy": 13,
+      "sell": 3,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.085,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.4899,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.035,
+      "buy": 10,
+      "sell": 8,
+      "neutral": 8
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.53,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.1907,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.57,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:12:56.175106": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.04,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.29,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.3301,
+      "buy": 12,
+      "sell": 4,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.16,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.85,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.1,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.575,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.285,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.75,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:13:00.301461": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.04,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.29,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.3301,
+      "buy": 12,
+      "sell": 4,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.165,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.805,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.285,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.75,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:18:04.360219": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.045,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.275,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.4,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.14,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.8498,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.07,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.575,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.29,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.7,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:23:12.056929": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 54.98,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.247,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.395,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.08,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.52,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.02,
+      "buy": 10,
+      "sell": 8,
+      "neutral": 8
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.58,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.21,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.66,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:28:08.032146": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 55.01,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.26,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.395,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.19,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.71,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.2573,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.735,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:28:19.856986": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 55,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.265,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.395,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.19,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.76,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.0262,
+      "buy": 10,
+      "sell": 8,
+      "neutral": 8
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.56,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.2573,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.735,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:33:27.746693": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 54.965,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.2307,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.395,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.11,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.57,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.85,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.56,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.17,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.7,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:38:36.015333": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 54.945,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.235,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.4284,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.12,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.55,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.93,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.5809,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.12,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.69,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:43:16.088178": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 54.99,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.25,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.4298,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.085,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.33,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.1499,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.76,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:43:44.220252": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 54.98,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.255,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.4298,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.08,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 433.345,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.935,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.52,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.13,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.74,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:48:52.374933": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 55.0165,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.24,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.4298,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.07,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.43,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.9651,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.54,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.175,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.795,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:54:00.399335": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.065,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.265,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.07,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.47,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.005,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.54,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.2,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.8,
+      "buy": 14,
+      "sell": 3,
+      "neutral": 9
+    }
+  },
+  "2026-04-24T14:58:23.592007": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.06,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.26,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.08,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.43,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.18,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.69,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T14:59:08.496303": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.035,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.245,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.01,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.33,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.9401,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.545,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.15,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.675,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:04:16.780676": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.05,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.245,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.12,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.35,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.98,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.545,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.145,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.675,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:09:24.923163": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.04,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.245,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.16,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.5,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.98,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.5,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.155,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.65,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:13:31.006474": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 55.025,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.235,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.18,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.635,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.175,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.6,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:14:33.076636": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.03,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.235,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.2,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.69,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.9899,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.525,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.22,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.64,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:19:41.158864": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.0714,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.265,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.3,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.735,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.02,
+      "buy": 10,
+      "sell": 8,
+      "neutral": 8
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.57,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.22,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.7,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:24:49.311229": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.065,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.27,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.16,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.745,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.995,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.525,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.205,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.6,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:28:38.597074": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.1,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.275,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.18,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.58,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.2,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.54,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:29:57.448021": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.115,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.28,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.2,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.64,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.48,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.195,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.605,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:35:05.625357": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.1499,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.28,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.23,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.505,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.015,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.52,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69.155,
+      "buy": 9,
+      "sell": 7,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.615,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:40:13.838562": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 1.0,
+      "price": 55.1,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.2601,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.08,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 433.2396,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.985,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.4401,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.56,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:41:43.913622": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 55.08,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.265,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.03,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.3,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 43.97,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.5,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 69,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.465,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:43:46.073759": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 55.08,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.265,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.08,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 433.24,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.995,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.52,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:46:52.124146": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 55.07,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.255,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.1,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.15,
+      "price": 433.37,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.0075,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.48,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.965,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.555,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:52:00.330671": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 55.04,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.26,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.1,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 433.24,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.0001,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.4,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.94,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.4038,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:57:08.652927": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 55.065,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.275,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.14,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 433.13,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "HOLD",
+      "score": -0.05,
+      "price": 44.02,
+      "buy": 10,
+      "sell": 7,
+      "neutral": 9
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "BUY",
+      "score": 0.5,
+      "price": 36.445,
+      "buy": 13,
+      "sell": 4,
+      "neutral": 9
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.895,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.47,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    }
+  },
+  "2026-04-24T15:58:53.644305": {
+    "AIQ": {
+      "signal": "BUY",
+      "score": 0.65,
+      "price": 55.07,
+      "buy": 16,
+      "sell": 1,
+      "neutral": 9
+    },
+    "BOTZ": {
+      "signal": "BUY",
+      "score": 0.9,
+      "price": 37.275,
+      "buy": 16,
+      "sell": 0,
+      "neutral": 10
+    },
+    "COMB": {
+      "signal": "BUY",
+      "score": 0.6,
+      "price": 26.46,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
+    },
+    "GDX": {
+      "signal": "SELL",
+      "score": -0.3,
+      "price": 94.08,
+      "buy": 6,
+      "sell": 10,
+      "neutral": 10
+    },
+    "GLD": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 433.11,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "IBIT": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "PLSV": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SETM": {
+      "signal": "N/A",
+      "score": 0.0,
+      "price": null,
+      "buy": 0,
+      "sell": 0,
+      "neutral": 0
+    },
+    "SLV": {
+      "signal": "HOLD",
+      "score": 0.05,
+      "price": 68.815,
+      "buy": 8,
+      "sell": 8,
+      "neutral": 10
+    },
+    "URA": {
+      "signal": "BUY",
+      "score": 0.55,
+      "price": 55.44,
+      "buy": 14,
+      "sell": 2,
+      "neutral": 10
     }
   }
 }

@@ -13,6 +13,7 @@ Usage in your existing script:
 
 import json
 import os
+import csv
 from datetime import datetime
 from pathlib import Path
 
@@ -132,7 +133,7 @@ def _score_bar(score: float, is_buy: bool) -> str:
     )
 
 
-def _card(t: dict, is_top: bool = False) -> str:
+def _card(t: dict, history: list, is_top: bool = False) -> str:
     """Render a single ticker card."""
     sig = t["signal"]
     is_buy  = sig == "BUY"
@@ -152,6 +153,20 @@ def _card(t: dict, is_top: bool = False) -> str:
         sig_bg, sig_color = "#FCEBEB", "#791F1F"
 
     best_badge = '<div style="font-size:11px;background:#EAF3DE;color:#27500A;padding:2px 8px;border-radius:6px;margin-bottom:6px;display:inline-block;">strongest buy</div>' if is_top else ""
+
+    if history:
+        history_rows = "".join(f"<tr><td>{row['timestamp'][:16]}</td><td>{row['signal']}</td><td>{row['score']}</td></tr>" for row in history[-5:])
+        history_html = f"""
+    <details style="margin-top:8px;">
+      <summary style="font-size:11px;color:#888;cursor:pointer;">History (last 5)</summary>
+      <table style="font-size:10px;width:100%;border-collapse:collapse;">
+        <tr><th style="border:1px solid #ddd;padding:2px;">Time</th><th style="border:1px solid #ddd;padding:2px;">Signal</th><th style="border:1px solid #ddd;padding:2px;">Score</th></tr>
+        {history_rows}
+      </table>
+    </details>
+    """
+    else:
+        history_html = ""
 
     return f"""
     <div style="background:#fff;border:{featured};border-top:{top_border};
@@ -181,6 +196,7 @@ def _card(t: dict, is_top: bool = False) -> str:
           {t['neutral']} neutral
         </span>
       </div>
+      {history_html}
     </div>"""
 
 
@@ -192,6 +208,17 @@ def _build_html(timestamp: str, buys: list[dict], holds: list[dict], sells: list
     colors  = ["#639922" if s > 0 else "#E24B4A" for s in scores]
     borders = ["#3B6D11" if s > 0 else "#A32D2D" for s in scores]
 
+    # Load histories
+    histories = {}
+    for t in all_tickers:
+        csv_path = Path("logs") / f"{t['ticker']}.csv"
+        if csv_path.exists():
+            with open(csv_path, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                histories[t['ticker']] = list(reader)
+        else:
+            histories[t['ticker']] = []
+
     # Chart.js data as JS literals
     labels_js  = json.dumps(labels)
     scores_js  = json.dumps(scores)
@@ -199,9 +226,9 @@ def _build_html(timestamp: str, buys: list[dict], holds: list[dict], sells: list
     borders_js = json.dumps(borders)
 
     # Build cards
-    buy_cards  = "".join(_card(t, is_top=(i == 0)) for i, t in enumerate(buys))
-    hold_cards = "".join(_card(t) for t in holds)
-    sell_cards = "".join(_card(t) for t in sells)
+    buy_cards  = "".join(_card(t, histories.get(t['ticker'], []), is_top=(i == 0)) for i, t in enumerate(buys))
+    hold_cards = "".join(_card(t, histories.get(t['ticker'], [])) for t in holds)
+    sell_cards = "".join(_card(t, histories.get(t['ticker'], [])) for t in sells)
 
     hold_section = f"""
 <div class="section-label">Hold signals ({len(holds)})</div>

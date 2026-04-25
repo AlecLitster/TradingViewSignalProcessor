@@ -14,15 +14,16 @@ WATCHLIST_FILE = os.path.join(BASE_DIR, "data", "WatchList.txt")
 LOG_FILE       = os.path.join(BASE_DIR, "logs", "tv_signals_log.txt")
 SIGNALS_JSON   = os.path.join(BASE_DIR, "logs", "tv_signals_history.json")
 LOG_DIR        = os.path.join(BASE_DIR, "logs")
+HISTORY_DIR    = os.path.join(BASE_DIR, "History")
 
 # -- Polling ------------------------------------------------------------------
 
-INTERVAL_MINUTES = 15
+INTERVAL_MINUTES = 5
 
 # -- Signal history tracking --------------------------------------------------
 
 SIGNAL_HISTORY_FILE               = os.path.join(BASE_DIR, "logs", "tv_signals_history.json")
-SIGNAL_HISTORY_WINDOW             = 5
+SIGNAL_HISTORY_WINDOW             = 50
 SIGNAL_SCORE_DELTA_THRESHOLD      = 0.25
 SIGNAL_SCORE_WEAK_DELTA_THRESHOLD  = 0.35
 SIGNAL_SCORE_STRONG_DELTA_THRESHOLD = 0.50
@@ -41,6 +42,9 @@ EXCHANGE_MAP = {
     "FXE":   "AMEX",
     "GDX":   "AMEX",
     "GLD":   "AMEX",
+    "IBIT":   "NASDAQ",
+    "PSLV":   "AMEX",
+    "SETM":   "NASDAQ",
     "SLV":   "AMEX",
     "URA":   "AMEX",
     "VCMDX": "NASDAQ",
